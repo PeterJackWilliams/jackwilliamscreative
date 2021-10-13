@@ -1,0 +1,268 @@
+* {
+    font-family: sans-serif;
+}
+
+li {
+    text-decoration: none;
+}
+
+p {
+    margin: auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+.cartoon {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.maps {
+    width: 480px;
+}
+
+.headerandlinks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: -8px -8px 50px -8px;
+    background-color: rgb(250, 137, 96);
+    padding: 0px 50px;
+}
+
+.jwclogo {
+    width: 120px;
+}
+
+.link {
+    text-decoration: none;
+    margin: 0px 10px;
+    -webkit-text-fill-color: rgb(26, 25, 25);
+    font-family: 'Caveat';
+    font-size: 25px;
+}
+
+.hide {
+    display: none;
+  }
+
+.imgclick {
+    width: 300px;
+    min-width: 200px;
+}
+
+.indexmedia {
+    margin: 0 250px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.wiglyline {
+    max-width: 170px;
+    margin: -28px auto;
+}
+
+.sectioncolour {
+    background-color: rgb(250 137 96 / 14%);
+    margin: 0px -8px;
+}
+
+.tagline {
+    text-align: left;
+    margin: 0px 80px;
+}  
+
+.video {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+}
+
+
+.contactdetails {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+footer {
+    background-color: rgb(250, 137, 96);
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 60px;
+}
+
+.buttons {
+    width: 130px;
+    display: flex;
+    margin: -20px 0px;
+}
+
+.workdisplay {
+    display: flex;
+    padding: 0px 60px;
+    margin: 0px 60px;
+}
+
+.workdisplaypages {
+    display: flex;
+}
+
+.videodisplay {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.workstills {
+    margin: 0px auto;
+    max-width: 100%;
+    width: 450px;
+}
+
+.footermargin {
+    margin-top: 130px;
+}
+
+.pitem {
+    padding-bottom: 10px;
+}
+
+/* media quereys */
+
+@media screen and (max-width:890px) {
+    iframe {
+        width: 320px;
+        height: 280px;
+    } 
+}
+
+@media screen and (max-width:890px) {
+    .maps {
+        width: 220px;
+    }
+}
+
+@media screen and (max-width:890px) {
+    .headerandlinks {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 50px;
+        background-color: rgb(250, 137, 96);
+        padding: 0px 50px;
+    }
+}
+
+@media screen and (max-width:890px) {
+    .jwclogo {
+        width: 80px;
+    }
+}
+
+@media screen and (max-width:890px) {
+    .link {
+        text-decoration: none;
+        margin: 0px 10px;
+        -webkit-text-fill-color: rgb(26, 25, 25);
+        font-family: 'Caveat';
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width:890px) {
+    .links {
+        display: grid;
+    }
+}
+
+@media screen and (max-width:890px) {
+    .worklinks {
+        text-decoration: none;
+        color: #fa8960;
+        font-family: 'Caveat';
+    }
+}
+
+@media screen and (max-width:890px){
+    .hide {
+        display: none;
+  }
+}
+
+  @media screen and (max-width:890px) {
+      .imgclick {
+        width: 220px;
+        min-width: 180px;
+        margin: 0px auto;
+        padding-top: 20px;
+    }
+}
+
+@media screen and (max-width:890px) {
+    .indexmedia {
+        margin: 0 auto;
+        display: block;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:890px) {
+    .wiglyline {
+        max-width: 170px;
+        margin: -28px auto;
+    }
+}
+
+@media screen and (max-width:890px) {
+    .tagline {
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 20px;
+        margin: 0px 30px;
+    } 
+} 
+
+@media screen and (max-width:890px) {
+    .video {
+        display: flex;
+        justify-content: center;
+        max-width: 100%;
+    }  
+}
+
+@media screen and (max-width:890px) {
+    .contactdetails {
+        display: block;
+        padding: 15px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:890px) {
+    footer {
+        padding: 0px 20px;
+    }
+}
+
+@media screen and (max-width:890px) {
+    .workdisplay {
+        padding: 0px 0px;
+        margin: 0px 0px;
+    }
+}
+
+@media screen and (max-width:890px) {
+    .workdisplaypages {
+        display: block;
+    }
+}
+
+@media screen and (max-width:890px) {
+    .workstills {
+        width: 300px;
+        margin: 0 auto;
+    }
+}

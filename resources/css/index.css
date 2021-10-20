@@ -89,7 +89,7 @@ footer {
     background-color: rgb(250, 137, 96);
     display: flex;
     justify-content: space-between;
-    padding: 0px 60px;
+    margin: -8px;
 }
 
 .buttons {
@@ -218,7 +218,8 @@ footer {
         text-align: center;
         margin-bottom: 20px;
         font-size: 20px;
-        margin: 0px 30px;
+        margin: 0px auto;
+        width: 300px;
     } 
 } 
 

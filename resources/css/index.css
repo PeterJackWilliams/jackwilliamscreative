@@ -122,6 +122,11 @@ footer {
     display: flex;
 }
 
+.worklinks {
+    text-decoration: none;
+    color: #fa8960;
+}
+
 .videodisplay {
     display: flex;
     justify-content: space-evenly;
@@ -131,6 +136,7 @@ footer {
     margin: 0px auto;
     max-width: 100%;
     width: 580px;
+    padding: 0px 5px;
 }
 
 .footermargin {
@@ -186,14 +192,6 @@ footer {
 @media screen and (max-width:890px) {
     .links {
         display: grid;
-    }
-}
-
-@media screen and (max-width:890px) {
-    .worklinks {
-        text-decoration: none;
-        color: #fa8960;
-        font-family: 'Caveat';
     }
 }
 

@@ -151,7 +151,6 @@ footer {
 @media screen and (max-width:890px) {
     iframe {
         width: 320px;
-        height: 280px;
     } 
 }
 

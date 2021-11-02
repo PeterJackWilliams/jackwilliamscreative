@@ -94,7 +94,7 @@ img {
 .contactdetails {
     display: flex;
     justify-content: space-evenly;
-    margin-top: 50px;
+    padding: 120px 0px;
 }
 
 footer {
@@ -286,5 +286,10 @@ footer {
 @media screen and (max-width:890px) {
     .testimonialstext {
        padding: 0px;
+    }
+}
+@media screen and (max-width:890px) {
+    .work-container {
+        padding: 0px 0px 20px;
     }
 }

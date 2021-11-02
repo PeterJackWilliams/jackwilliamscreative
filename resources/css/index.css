@@ -283,6 +283,11 @@ footer {
     .testimonials {
         margin: 0px auto;
         width: 300px;
-        padding: 0px;
+    }
+}
+
+@media screen and (max-width:890px) {
+    .testimonialstext {
+       padding: 0px;
     }
 }

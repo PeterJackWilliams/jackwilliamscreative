@@ -103,6 +103,7 @@ footer {
     display: flex;
     justify-content: space-between;
     margin: 130px -8px -8px -8px;
+    padding: 0px 20px;
 }
 
 .buttons {
@@ -278,3 +279,9 @@ footer {
     }
 }
 
+@media screen and (max-width:890px) {
+    .testimonials {
+        margin: 0px auto;
+        width: 300px;
+    }
+}

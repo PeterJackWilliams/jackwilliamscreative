@@ -8,6 +8,7 @@ li {
 
 p {
     margin: auto;
+    font-size: 20px;
 }
 
 img {
@@ -64,12 +65,12 @@ img {
 
 .testimonialstitle {
     text-align: center;
-    font-family: Caveat;
     font-size: 65px;
 }
 
 .testimonialstext {
     padding: 0px 200px;
+    
 }
 
 .wiglyline {

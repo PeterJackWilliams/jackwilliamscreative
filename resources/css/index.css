@@ -60,17 +60,17 @@ img {
     align-items: center;
 }
 
-.testimonials {
+.textsection {
     text-align: center;
     margin: 0px auto;
     width: 700px;
 }
 
-.testimonialstitle {
+.textsectiontitle {
     text-align: center;
 }
 
-.testimonialstext {
+.textsectiontext {
 
 }
 
@@ -282,7 +282,7 @@ footer {
 }
 
 @media screen and (max-width:890px) {
-    .testimonials {
+    .textsection {
         margin: 0px auto;
         width: 300px;
         text-align: center;
@@ -290,7 +290,7 @@ footer {
 }
 
 @media screen and (max-width:890px) {
-    .testimonialstext {
+    .textsectiontext {
        padding: 0px;    
     }
 }

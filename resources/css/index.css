@@ -66,6 +66,11 @@ img {
     width: 700px;
 }
 
+.indextext {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .textsectiontitle {
     text-align: center;
 }

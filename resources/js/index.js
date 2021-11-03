@@ -16,10 +16,10 @@ text[1] = document.getElementById("text2")
 text[2] = document.getElementById("text3")
 
 function changeText() {
-  document.slide = text[i]
+  document.slide.src = text[i]
 
-  if(i < text - 1) {
-    ++i 
+  if(i < text.length - 1) {
+    i++ 
   } else {
     i = 0
   }

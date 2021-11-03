@@ -7,6 +7,7 @@ imgclick.addEventListener("click", () => {
   jackSecond.classList.toggle("hide")
 })
 
+/*
 var i = 0;
 var text = []
 var time = 5000;
@@ -27,3 +28,4 @@ function changeText() {
   setTimeout(changeText(), time)
 }
     window.onload = changeText
+  */

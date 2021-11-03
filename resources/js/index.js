@@ -16,7 +16,7 @@ text[1] = document.getElementById("text2")
 text[2] = document.getElementById("text3")
 
 function changeText() {
-  document.slide.src = text[i]
+  document.slide = text[i]
 
   if(i < text - 1) {
     ++i 

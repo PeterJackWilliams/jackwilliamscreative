@@ -7,3 +7,6 @@ I ran into a few problems linking the JavaScript to interact with the HTML eleme
 I tried to keep the CSS as simple as I could from the start, creating more global classes so I didn't have to repeat code. However a couple of times I had to make some CSS more local, as it was effeting other parts of the website. Overall I am very happy with the work I have created, and in the time frame I was able to do it in.
 
 https://img.shields.io/github/followers/peterjackwilliams?style=social
+.. image:: https://img.shields.io/github/followers/peterjackwilliams?style=social   :alt: GitHub followers
+image:https://img.shields.io/github/followers/peterjackwilliams?style=social[GitHub followers]
+<img alt="GitHub followers" src="https://img.shields.io/github/followers/peterjackwilliams?style=social">

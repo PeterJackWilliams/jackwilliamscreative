@@ -177,7 +177,7 @@ footer {
 @media screen and (max-width:890px) {
     .headerandlinks {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
         margin-bottom: 50px;
         background-color: rgb(250, 137, 96);

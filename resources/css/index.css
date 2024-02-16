@@ -142,7 +142,6 @@ footer {
 }
 
 .videodisplay {
-    display: flex;
     justify-content: space-evenly;
     padding: 20px;
 }
@@ -312,10 +311,16 @@ footer {
         padding: 0px 0px 20px;
     }
 }
-
+@media screen and (min-width:895px) {
+.videodisplay {
+    display: flex;
+    padding: 20px;
+    text-align: center;
+}
+}
 @media screen and (max-width:890px) {
 .videodisplay {
-    justify-content: grid;
+    display: block;
     padding: 20px;
     text-align: center;
 }

@@ -38,6 +38,7 @@ img {
     margin: -8px -8px 50px -8px;
     background-color: rgb(250, 137, 96);
     padding: 0px 50px;
+    justify-content: center;
 }
 
 .jwclogo {

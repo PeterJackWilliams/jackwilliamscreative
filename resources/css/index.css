@@ -330,3 +330,15 @@ b {
     font-size: 25px;
 }
 }
+}
+}
+@media screen and (min-width:895px) {
+i {
+    font-size: 35px;
+}
+}
+@media screen and (min-width:895px) {
+b {
+    font-size: 45px;
+}
+}

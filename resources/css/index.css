@@ -315,7 +315,7 @@ footer {
 
 @media screen and (max-width:890px) {
 .videodisplay {
-    justify-content: space-evenly;
+    justify-content: grid;
     padding: 20px;
     text-align: center;
 }

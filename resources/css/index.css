@@ -320,3 +320,13 @@ footer {
     text-align: center;
 }
 }
+@media screen and (max-width:890px) {
+i {
+    font-size: 15px;
+}
+}
+@media screen and (max-width:890px) {
+b {
+    font-size: 25px;
+}
+}

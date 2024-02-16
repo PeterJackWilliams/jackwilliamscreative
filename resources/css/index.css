@@ -115,7 +115,7 @@ footer {
     background-color: rgb(250, 137, 96);
     display: flex;
     justify-content: space-between;
-    margin: 130px -8px -8px -8px;
+    margin: 0px -8px -8px -8px;
     padding: 0px 20px;
 }
 
@@ -154,7 +154,6 @@ footer {
 }
 
 .footermargin {
-    margin-top: 130px;
 }
 
 .pitem {

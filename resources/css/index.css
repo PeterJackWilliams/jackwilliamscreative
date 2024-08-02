@@ -109,7 +109,7 @@ img {
 .contactdetails {
     display: flex;
     justify-content: space-evenly;
-    padding: 120px 0px;
+    padding: 30px 0px;
 }
 
 footer {

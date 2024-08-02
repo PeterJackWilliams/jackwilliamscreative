@@ -115,15 +115,15 @@ img {
 footer {
     background-color: rgb(250, 137, 96);
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin: 0px -8px -8px -8px;
     padding: 0px 20px;
 }
 
 .buttons {
-    width: 130px;
+    width: 80px;
     display: flex;
-    margin: -20px 0px;
+    margin: -7px 0px;
 }
 
 .workdisplay {

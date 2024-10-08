@@ -47,6 +47,8 @@ img {
 
 .services {
     display: flex;
+    justify-content: center;
+
 }
 .servicesitems {
     margin: 0px 30px;

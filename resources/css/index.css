@@ -48,13 +48,7 @@ img {
 .services {
     display: flex;
 }
-.servicesitem1 {
-    margin: 0px 680px;
-}
-.servicesitem2 {
-    margin: 0px 680px;
-}
-.servicesitem3 {
+.servicesitems {
     margin: 0px 680px;
 }
 

@@ -48,9 +48,14 @@ img {
 .services {
     display: flex;
 }
-
-.servicesitems {
-    display: flex;
+.servicesitem1 {
+    margin: 0px 680px;
+}
+.servicesitem2 {
+    margin: 0px 680px;
+}
+.servicesitem3 {
+    margin: 0px 680px;
 }
 
 .link {

@@ -90,10 +90,6 @@ img {
     text-align: center;
 }
 
-.textsectiontext {
-
-}
-
 .wiglyline {
     max-width: 170px;
     margin: 25px auto;
@@ -159,9 +155,6 @@ footer {
     max-width: 100%;
     width: 580px;
     padding: 0px 5px;
-}
-
-.footermargin {
 }
 
 .pitem {
@@ -343,8 +336,7 @@ b {
     font-size: 25px;
 }
 }
-}
-}
+
 @media screen and (min-width:895px) {
 i {
     font-size: 35px;

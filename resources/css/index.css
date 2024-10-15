@@ -109,6 +109,11 @@ img {
     display: flex;
     justify-content: center;
 }
+.sectioncolour3 {
+    margin: 0px -8px;
+    display: flex;
+    justify-content: center;
+}
 
 .tagline {
     width: 420px;

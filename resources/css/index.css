@@ -192,12 +192,12 @@ footer {
 
 @media screen and (max-width:890px) {
     .contactinfo {
-        font-size: 25px;
+        font-size: 20px;
     } 
 }
 @media screen and (max-width:890px) {
     .contactinfotitle {
-        font-size: 30px;
+        font-size: 24px;
     } 
 }
 

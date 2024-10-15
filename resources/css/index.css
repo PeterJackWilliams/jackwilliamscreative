@@ -80,6 +80,9 @@ img {
     text-align: center;
     margin: 0px auto;
 }
+.textsectiontext {
+    width: 1440px;
+}
 
 .indextext {
     display: flex;

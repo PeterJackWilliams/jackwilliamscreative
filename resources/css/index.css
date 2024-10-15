@@ -188,8 +188,16 @@ footer {
     font-family: caveat;
     font-size: 35px
 }
+.testimonialtext {
+    font-size: 30px
+}
 /* media quereys */
 
+@media screen and (max-width:890px) {
+    .testimonialtext {
+        font-size: 20px;
+    } 
+}
 @media screen and (max-width:890px) {
     .contactinfo {
         font-size: 20px;

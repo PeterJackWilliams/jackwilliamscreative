@@ -79,6 +79,7 @@ img {
 .textsection {
     text-align: center;
     margin: 0px auto;
+    text-align: -webkit-center;
 }
 .textsectiontext {
     width: 1440px;

@@ -38,7 +38,6 @@ img {
     margin: -8px -8px 50px -8px;
     background-color: rgb(250, 137, 96);
     padding: 30px 50px;
-    justify-content: center;
 }
 
 .jwclogo {
@@ -60,7 +59,7 @@ img {
     margin: 0px 10px;
     -webkit-text-fill-color: rgb(26, 25, 25);
     font-family: 'Caveat';
-    font-size: 25px;
+    font-size: 40px;
 }
 
 .hide {
@@ -164,6 +163,12 @@ footer {
 }
 
 /* media quereys */
+
+@media screen and (max-width:890px) {
+    services {
+        display: block;    
+    } 
+}
 
 @media screen and (max-width:890px) {
     iframe {

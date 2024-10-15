@@ -195,12 +195,14 @@ footer {
 
 @media screen and (max-width:890px) {
     .testimonialtext {
-        font-size: 20px;
+        font-size: 18px;
+        margin: 0px 43px;
     } 
 }
 @media screen and (max-width:890px) {
     .contactinfo {
         font-size: 20px;
+        display: table;
     } 
 }
 @media screen and (max-width:890px) {
@@ -339,7 +341,6 @@ footer {
 @media screen and (max-width:890px) {
     .textsection {
         margin: 0px auto;
-        width: 300px;
         text-align: center;
         padding-bottom: 40px;
     }

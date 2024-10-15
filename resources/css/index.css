@@ -341,13 +341,18 @@ footer {
         margin: 0px auto;
         width: 300px;
         text-align: center;
-        padding-bottom: 80px;
+        padding-bottom: 40px;
     }
 }
 
 @media screen and (max-width:890px) {
     .textsectiontext {
        padding: 0px;    
+    }
+}
+@media screen and (max-width:890px) {
+    .footertext {
+        font-size: 12px;   
     }
 }
 @media screen and (max-width:890px) {

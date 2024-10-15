@@ -152,10 +152,9 @@ footer {
 }
 
 .workstills {
-    margin: 0px auto;
-    max-width: 100%;
-    width: 580px;
-    padding: 0px 5px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 140px;
 }
 
 .pitem {

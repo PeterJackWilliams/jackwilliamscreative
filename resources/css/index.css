@@ -246,12 +246,6 @@ footer {
     }
 }
 
-@media screen and (max-width:890px) {
-    .links {
-        display: grid;
-    }
-}
-
 @media screen and (max-width:890px){
     .hide {
         display: none;

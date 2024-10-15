@@ -180,7 +180,7 @@ footer {
 /* media quereys */
 
 @media screen and (max-width:890px) {
-    services {
+    .services {
         display: block;    
     } 
 }

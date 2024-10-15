@@ -230,7 +230,7 @@ footer {
 @media screen and (max-width:890px) {
     .headerandlinks {
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
         margin-bottom: 50px;
         background-color: rgb(250, 137, 96);
@@ -239,17 +239,7 @@ footer {
 }
 
 @media screen and (max-width:890px) {
-    .jwclogo {
-        width: 80px;
-    }
-}
-
-@media screen and (max-width:890px) {
     .link {
-        text-decoration: none;
-        margin: 0px 10px;
-        -webkit-text-fill-color: rgb(26, 25, 25);
-        font-family: 'Caveat';
         font-size: 25px;
     }
 }

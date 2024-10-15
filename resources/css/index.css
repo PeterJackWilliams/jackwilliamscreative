@@ -102,7 +102,7 @@ img {
     background-color: rgb(250 137 96 / 14%);
     margin: 0px -8px;
 }
-.sectioncolour {
+.sectioncolour2 {
     background-color: rgb(250 137 96 / 14%);
     margin: 0px -8px;
     display: flex;
@@ -172,6 +172,8 @@ footer {
 .worktitle {
     font-family: caveat;
     font-size: 65px;
+    text-align-last: center;
+    padding-bottom: 40px;
 }
 
 /* media quereys */

@@ -58,7 +58,7 @@ img {
     justify-content: space-between;
     align-items: center;
     margin: -8px -8px 50px -8px;
-    background-color: rgb(250, 137, 96);
+    background-color: rgb(250, 164, 96);
     padding: 30px 50px;
 }
 
@@ -159,7 +159,7 @@ img {
 }
 
 footer {
-    background-color: rgb(250, 137, 96);
+    background-color: rgb(250, 164, 96);
     display: flex;
     justify-content: center;
     margin: 0px -8px -8px -8px;

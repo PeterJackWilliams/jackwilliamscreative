@@ -1,4 +1,11 @@
-
+@font-face {
+    font-family: Satoshi;
+    src: url(/resources/fonts/Satoshi_Complete/Satoshi-Variable.ttf);
+}
+@font-face {
+    font-family: SatoshiItalic;
+    src: url(/resources/fonts/Satoshi_Complete/Satoshi-VariableItalic.ttf);
+}
 
 .hidden {
     display: none;
@@ -14,7 +21,7 @@ p {
     margin: auto;
     font-size: 20px;
     line-height: 1.6;
-    font-family: Satoshi-Variable;
+    font-family: Satoshi;
 }
 
 img {

@@ -302,8 +302,7 @@ footer {
 
 @media screen and (max-width:890px) {
     .indexmedia {
-        margin: 0 auto;
-        display: block;
+        display: inline-flex;
         justify-content: center;
     }
 }

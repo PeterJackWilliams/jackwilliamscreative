@@ -116,9 +116,13 @@ img {
     text-align: center;
 }
 
+.brandbanner {
+    margin: 160px auto;
+}
+
 .wiglyline {
     max-width: 170px;
-    margin: 25px auto;
+    margin: 165px auto;
 }
 
 .sectioncolour {

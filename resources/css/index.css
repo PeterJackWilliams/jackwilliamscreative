@@ -6,6 +6,14 @@
     font-family: SatoshiItalic;
     src: url(/resources/fonts/Satoshi_Complete/Satoshi-VariableItalic.ttf);
 }
+@font-face {
+    font-family: Syne;
+    src: url(/resources/fonts/Syne/Syne-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: SyneMedium;
+    src: url(/resources/fonts/Syne/Syne-Medium.ttf);
+}
 
 .hidden {
     display: none;
@@ -64,7 +72,7 @@ img {
     text-decoration: none;
     margin: 0px 10px;
     -webkit-text-fill-color: rgb(26, 25, 25);
-    font-family: 'Caveat';
+    font-family: 'Syne';
     font-size: 40px;
 }
 

@@ -1,12 +1,5 @@
 
 
-@font-face {
-    font-family: "Satoshi-Variable";
-    font-style: normal;
-    font-weight: 200;
-    src: url(/resources/fonts/Satoshi_Complete/Satoshi-Variable.ttf) format("truetype");
-  }
-
 .hidden {
     display: none;
 }
@@ -21,6 +14,7 @@ p {
     margin: auto;
     font-size: 20px;
     line-height: 1.6;
+    font-family: Satoshi-Variable;
 }
 
 img {

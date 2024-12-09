@@ -263,6 +263,12 @@ footer {
 }
 
 @media screen and (max-width:890px) {
+    .iframe {
+        width: auto;    
+    } 
+}
+
+@media screen and (max-width:890px) {
     .maps {
         width: 220px;
     }

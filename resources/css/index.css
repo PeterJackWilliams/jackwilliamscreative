@@ -118,6 +118,7 @@ img {
 
 .brandbanner {
     margin: 160px auto;
+    text-align: center;
 }
 
 .wiglyline {
@@ -301,8 +302,7 @@ footer {
 
 @media screen and (max-width:890px) {
     .indexmedia {
-        display: inline-flex;
-        justify-content: center;
+        display: flow;
     }
 }
 

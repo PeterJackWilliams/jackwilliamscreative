@@ -227,12 +227,6 @@ footer {
 /* media quereys */
 
 @media screen and (max-width:890px) {
-    .footermedia {
-        display: 
-    } 
-}
-
-@media screen and (max-width:890px) {
     .worktitle {
         font-size: 40px;
     } 
@@ -271,6 +265,13 @@ footer {
 @media screen and (max-width:890px) {
     iframe {
         height: 518px;
+    } 
+}
+
+@media screen and (max-width:890px) {
+    iframesixteennine {
+        width: 350px;
+        height: 184px; 
     } 
 }
 

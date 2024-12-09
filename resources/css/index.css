@@ -263,13 +263,6 @@ footer {
 }
 
 @media screen and (max-width:890px) {
-    iframesixteennine {
-        width: 350px;
-        height: 184px; 
-    } 
-}
-
-@media screen and (max-width:890px) {
     iframe {
         height: 518px;
     } 

@@ -92,6 +92,12 @@ img {
     width: 400px;
 }
 
+.footermedia {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
 .indexmedia {
     display: flex;
     justify-content: space-evenly;
@@ -221,6 +227,18 @@ footer {
 /* media quereys */
 
 @media screen and (max-width:890px) {
+    .footermedia {
+        display: none;
+    } 
+}
+
+@media screen and (max-width:890px) {
+    .worktitle {
+        font-size: 40px;
+    } 
+}
+
+@media screen and (max-width:890px) {
     .brandbanner {
         display: none;
     } 
@@ -252,7 +270,8 @@ footer {
 
 @media screen and (max-width:890px) {
     iframe {
-        width: 320px;
+        width: 340px;
+        height: 190px;
     } 
 }
 
@@ -365,7 +384,8 @@ footer {
     .workstills {
         margin: 0 auto;
         display: block;
-        width: 200px;
+        width: 280px;
+        padding-bottom: 0px;
     }
 }
 

@@ -15,6 +15,11 @@
     src: url(/resources/fonts/Syne/Syne-Medium.ttf);
 }
 
+.welcome {
+    width: 320px;
+    justify-self: center;
+}
+
 .brandvalues {
     justify-self: center;
 }

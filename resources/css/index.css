@@ -214,6 +214,12 @@ footer {
     padding-bottom: 140px;
 }
 
+.brandstills {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 140px;
+}
+
 .pitem {
     padding-bottom: 10px;
 }
@@ -388,6 +394,27 @@ footer {
         display: block;
         width: 280px;
         padding-bottom: 0px;
+    }
+}
+
+@media screen and (max-width:890px) {
+    .brandstills {
+        margin: 0 auto;
+        display: block;
+        width: 280px;
+        padding-bottom: 0px;
+    }
+}
+
+@media screen and (min-width:895px) {
+    .brandstills {
+        display: none;
+    }
+}
+
+@media screen and (max-width:890px) {
+    .brandvalues {
+        display: none;
     }
 }
 

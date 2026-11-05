@@ -1,78 +1,206 @@
 <!DOCTYPE html>
-<html>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+<html lang="en">
 <head>
-    <title>WORK</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Selected video editing work across corporate, science and healthcare, brand campaigns, gaming and entertainment.">
+    <title>Selected Work | Jack Williams Creative</title>
+
+    <!-- Keep the site's existing global styles, then add portfolio-specific styles. -->
     <link rel="stylesheet" href="../../resources/css/index.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Caveat&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" type="image/png" href="../../resources/images/other/favicon.png"/>
+    <link rel="stylesheet" href="../../resources/css/portfolio.css">
+    <link rel="shortcut icon" type="image/png" href="../../resources/images/other/favicon.png">
 </head>
 
 <body>
-
-  <header class="headerandlinks">
-    <div class="jwclogo">
-        <a href="../../index.html"><img src="../../resources/images/other/jack-williams-creative-logo-01.png" alt="Jack Williams Creative."></a>
-    </div>
-<nav class="links">
-    <a href="../../index.html" class="link">Home</a>
-    <a href="../pages/work.html" class="link">Work</a>
-    <a href="../pages/contact.html" class="link">Contact</a>
-</nav>
-</header>
-
-<main>
-
-    <section class="workstills" style="padding-bottom: 0px;">
-        <div class="workstillsitem">
-            <a href="/resources/pages/social.html"><img src="/resources/images/workdisplay/social.png" style="width: 450px;" alt=""></a>
+    <header class="headerandlinks">
+        <div class="jwclogo">
+            <a href="../../index.html">
+                <img src="../../resources/images/other/jack-williams-creative-logo-01.png" alt="Jack Williams Creative">
+            </a>
         </div>
-        <div class="workstillsitem">
-            <a href="/resources/pages/corporate.html"><img src="/resources/images/workdisplay/corporate.png" style="width: 450px;" alt=""></a>
+
+        <nav class="links" aria-label="Main navigation">
+            <a href="../../index.html" class="link">Home</a>
+            <a href="work.html" class="link" aria-current="page">Work</a>
+            <a href="contact.html" class="link">Contact</a>
+        </nav>
+    </header>
+
+    <main class="portfolio-main">
+        <section class="portfolio-intro" aria-labelledby="portfolio-heading">
+            <p class="portfolio-eyebrow">A selection of projects & collaborations</p>
+            <h1 id="portfolio-heading">Selected Work<span>.</span></h1>
+            <p class="portfolio-lede">
+                Video editing across corporate, science and healthcare, brand campaigns,
+                gaming and entertainment.
+            </p>
+        </section>
+
+        <section class="portfolio-section" aria-label="Portfolio projects">
+            <div class="portfolio-toolbar">
+                <div class="portfolio-filters" role="group" aria-label="Filter projects">
+                    <button class="portfolio-filter is-active" type="button" data-filter="all" aria-pressed="true">All Work</button>
+                    <button class="portfolio-filter" type="button" data-filter="corporate" aria-pressed="false">Corporate, Science &amp; Healthcare</button>
+                    <button class="portfolio-filter" type="button" data-filter="brand" aria-pressed="false">Brand &amp; Commercial</button>
+                    <button class="portfolio-filter" type="button" data-filter="gaming" aria-pressed="false">Gaming &amp; Entertainment</button>
+                </div>
+                <p class="portfolio-count" aria-live="polite"><span id="project-count">10</span> projects</p>
+            </div>
+
+            <div class="portfolio-grid" id="portfolio-grid">
+                <!--
+                    Add project thumbnails to:
+                    /resources/images/work/portfolio/
+                    Keep the filenames below, or update each src to match your image.
+                    Recommended image ratio: 16:9. JPG or WebP works well.
+                -->
+
+                <article class="project-card" data-category="corporate">
+                    <div class="project-image">
+                        <img src="../../resources/images/work/portfolio/esmo.jpg" alt="ESMO scientific and medical video project" loading="lazy">
+                        <span class="project-image-label">Scientific &amp; medical</span>
+                    </div>
+                    <div class="project-info">
+                        <h2>ESMO</h2>
+                        <p>Scientific and medical video content</p>
+                        <span class="project-category">Corporate, Science &amp; Healthcare</span>
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="corporate">
+                    <div class="project-image">
+                        <img src="../../resources/images/work/portfolio/dark-horse.jpg" alt="Dark Horse healthcare and science video project" loading="lazy">
+                        <span class="project-image-label">Healthcare &amp; science</span>
+                    </div>
+                    <div class="project-info">
+                        <h2>Dark Horse</h2>
+                        <p>Healthcare and science-led video projects</p>
+                        <span class="project-category">Corporate, Science &amp; Healthcare</span>
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="corporate">
+                    <div class="project-image">
+                        <img src="../../resources/images/work/portfolio/be-human-collective.jpg" alt="Be Human Collective brand film project" loading="lazy">
+                        <span class="project-image-label">Brand film</span>
+                    </div>
+                    <div class="project-info">
+                        <h2>Be Human Collective</h2>
+                        <p>Brand films and corporate content</p>
+                        <span class="project-category">Corporate, Science &amp; Healthcare</span>
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="corporate">
+                    <div class="project-image">
+                        <img src="../../resources/images/work/portfolio/millfield.jpg" alt="Millfield School promotional and sports video project" loading="lazy">
+                        <span class="project-image-label">Education &amp; sport</span>
+                    </div>
+                    <div class="project-info">
+                        <h2>Millfield School</h2>
+                        <p>School promotional and sports films</p>
+                        <span class="project-category">Corporate, Science &amp; Healthcare</span>
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="corporate">
+                    <div class="project-image">
+                        <img src="../../resources/images/work/portfolio/mission-science.jpg" alt="Mission Science educational video project" loading="lazy">
+                        <span class="project-image-label">Science &amp; education</span>
+                    </div>
+                    <div class="project-info">
+                        <h2>Mission Science</h2>
+                        <p>Science and educational films</p>
+                        <span class="project-category">Corporate, Science &amp; Healthcare</span>
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="brand">
+                    <div class="project-image">
+                        <img src="../../resources/images/work/portfolio/with-nothing-underneath.jpg" alt="With Nothing Underneath fashion campaign project" loading="lazy">
+                        <span class="project-image-label">Fashion campaign</span>
+                    </div>
+                    <div class="project-info">
+                        <h2>With Nothing Underneath</h2>
+                        <p>Fashion campaigns and social content</p>
+                        <span class="project-category">Brand &amp; Commercial</span>
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="brand">
+                    <div class="project-image">
+                        <img src="../../resources/images/work/portfolio/dr-david-jack.jpg" alt="Dr David Jack brand and product video project" loading="lazy">
+                        <span class="project-image-label">Brand &amp; product</span>
+                    </div>
+                    <div class="project-info">
+                        <h2>Dr David Jack</h2>
+                        <p>Brand and product content</p>
+                        <span class="project-category">Brand &amp; Commercial</span>
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="brand">
+                    <div class="project-image">
+                        <img src="../../resources/images/work/portfolio/framette.jpg" alt="Framette fashion and brand content project" loading="lazy">
+                        <span class="project-image-label">Fashion &amp; lifestyle</span>
+                    </div>
+                    <div class="project-info">
+                        <h2>Framette</h2>
+                        <p>Fashion, product and brand content</p>
+                        <span class="project-category">Brand &amp; Commercial</span>
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="gaming">
+                    <div class="project-image">
+                        <img src="../../resources/images/work/portfolio/crimson-moon.jpg" alt="Crimson Moon video game trailer project" loading="lazy">
+                        <span class="project-image-label">Game trailer</span>
+                    </div>
+                    <div class="project-info">
+                        <h2>Crimson Moon</h2>
+                        <p>Game trailer and promotional editing for Dialect</p>
+                        <span class="project-category">Gaming &amp; Entertainment</span>
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="gaming">
+                    <div class="project-image">
+                        <img src="../../resources/images/work/portfolio/nekome.jpg" alt="Nekome video game promotional project" loading="lazy">
+                        <span class="project-image-label">Game promotion</span>
+                    </div>
+                    <div class="project-info">
+                        <h2>Nekome</h2>
+                        <p>Game trailers and promotional content for Dialect</p>
+                        <span class="project-category">Gaming &amp; Entertainment</span>
+                    </div>
+                </article>
+            </div>
+
+            <p class="portfolio-empty" id="portfolio-empty" hidden>No projects in this category yet.</p>
+        </section>
+
+        <section class="portfolio-contact">
+            <p class="portfolio-eyebrow">Have a project in mind?</p>
+            <h2>Let's work together<span>.</span></h2>
+            <a href="contact.html" class="portfolio-contact-link">Get in touch <span aria-hidden="true">↗</span></a>
+        </section>
+    </main>
+
+    <footer class="footermedia">
+        <div>
+            <h4 class="footertext">© Built by Jack Williams Creative. All rights reserved.</h4>
         </div>
-    </section>
-    <section class="workstills">
-        <div class="workstillsitem">
-            <a href="/resources/pages/brandfilms.html"><img src="/resources/images/workdisplay/brandfilms.png" style="width: 450px;" alt=""></a>
+        <div class="portfolio-socials">
+            <a href="https://www.linkedin.com/in/peterjackwilliams" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                <img src="../../resources/images/other/linkedin.png" alt="">
+            </a>
+            <a href="https://www.instagram.com/jackwilliamscreative/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                <img src="../../resources/images/other/instagram.png" alt="">
+            </a>
         </div>
-    </section>
+    </footer>
 
-<br>
-
-<section class="sectioncolour">
-    <br>
-    <div>
-        <p style="font-family: Syne; font-size: 65px; text-align: center; margin-bottom: 10px;">Contact</p>
-    </div>
-    <div class="contactdetails">
-        <p class="pitem">Email - jackwilliamscreative@gmail.com</p>
-    </div>
-</section>
-
-</main>
-
-<footer class="footermedia">
-<div>
-  <h4 class="footertext">© Built by Jack Williams Creative. All rights reserved.</h4>
-</div>
-<div style="display: inline-flex;">
-<ul class="socialmedia">
-    <li class="buttons">
-        <a href="https://www.linkedin.com/in/peterjackwilliams" target="blank">
-            <img src="/resources/images/other/linkedin.png" alt="linkedin">
-        </a>
-</ul>
-<ul class="socialmedia">
-    <li class="buttons">
-        <a href="https://www.instagram.com/jackwilliamscreative/" target="blank">
-            <img src="/resources/images/other/instagram.png" alt="instagram">   
-        </a>
-</ul>
-</div>
-</footer>
-
+    <script src="../../resources/js/portfolio.js"></script>
 </body>
 </html>
-<script src="resources/js/index.js"></script>

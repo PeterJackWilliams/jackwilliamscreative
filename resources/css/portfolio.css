@@ -108,12 +108,20 @@
 }
 
 .project-card {
+    display: block;
     min-width: 0;
+    color: inherit;
+    text-decoration: none;
     animation: portfolio-card-in 220ms ease both;
 }
 
 .project-card[hidden] {
     display: none;
+}
+
+.project-card:focus-visible {
+    outline: 2px solid #fa8960;
+    outline-offset: 6px;
 }
 
 .project-image {
@@ -322,3 +330,31 @@
         transition: none;
     }
 }
+
+
+/* Individual client / case-study pages */
+.project-page-main {
+    width: min(1120px, calc(100% - 100px));
+    margin: 0 auto;
+    color: #edf0ed;
+}
+.project-back { display: inline-block; margin-top: 42px; color: rgba(237,240,237,.72); font: 14px Satoshi, sans-serif; text-decoration: none; }
+.project-back:hover { color: #fa8960; }
+.project-hero { padding: 72px 0 52px; max-width: 850px; }
+.project-hero h1 { margin: 0; color: #edf0ed; font: 600 clamp(46px,7vw,82px)/1.05 Syne,sans-serif; letter-spacing: -.055em; }
+.project-hero h1 span { color: #fa8960; }
+.project-hero .project-description { max-width: 720px; margin: 24px 0 0; color: rgba(237,240,237,.75); font: clamp(18px,2vw,22px)/1.6 Satoshi,sans-serif; }
+.project-meta { display: flex; flex-wrap: wrap; gap: 12px 36px; margin-top: 32px; }
+.project-meta div { color: rgba(237,240,237,.65); font: 13px/1.5 Satoshi,sans-serif; }
+.project-meta strong { display: block; margin-bottom: 4px; color: #fa8960; font-size: 11px; letter-spacing: .1em; text-transform: uppercase; }
+.project-featured { margin: 10px 0 70px; }
+.project-featured img { display: block; width: 100%; max-height: 620px; aspect-ratio: 16/9; object-fit: cover; background: #171717; }
+.project-work-heading { margin: 0 0 28px; font: 500 clamp(28px,4vw,42px)/1.15 Syne,sans-serif; }
+.project-work-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 36px 24px; margin-bottom: 100px; }
+.project-work-item h3 { margin: 14px 0 7px; font: 500 22px Syne,sans-serif; }
+.project-work-item p { color: rgba(237,240,237,.7); font: 15px/1.6 Satoshi,sans-serif; }
+.project-work-media { position: relative; aspect-ratio: 16/9; overflow: hidden; background: #1a1a1a; }
+.project-work-media img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.project-work-media iframe { width: 100%; height: 100%; border: 0; }
+.project-page-empty { padding: 30px; border: 1px solid rgba(237,240,237,.18); color: rgba(237,240,237,.7); font: 15px/1.6 Satoshi,sans-serif; }
+@media (max-width: 700px) { .project-page-main { width: calc(100% - 36px); } .project-hero { padding: 52px 0 38px; } .project-work-grid { grid-template-columns: 1fr; gap: 28px; } }

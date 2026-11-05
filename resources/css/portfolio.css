@@ -1,0 +1,324 @@
+/* Portfolio page styles.
+   Loaded after index.css so these rules only refine the Work page. */
+
+.portfolio-main {
+    width: min(1320px, calc(100% - 100px));
+    margin: 0 auto;
+    color: #edf0ed;
+}
+
+.portfolio-intro {
+    max-width: 900px;
+    margin: 85px auto 75px;
+    text-align: center;
+}
+
+.portfolio-eyebrow {
+    margin: 0 0 18px;
+    color: #fa8960;
+    font-family: Satoshi, sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.14em;
+    line-height: 1.5;
+    text-transform: uppercase;
+}
+
+.portfolio-intro h1,
+.portfolio-contact h2 {
+    margin: 0;
+    color: #edf0ed;
+    font-family: Syne, sans-serif;
+    font-size: clamp(48px, 7vw, 82px);
+    font-weight: 600;
+    letter-spacing: -0.055em;
+    line-height: 1.05;
+}
+
+.portfolio-intro h1 span,
+.portfolio-contact h2 span {
+    color: #fa8960;
+}
+
+.portfolio-lede {
+    max-width: 650px;
+    margin: 25px auto 0;
+    color: rgba(237, 240, 237, 0.72);
+    font-family: Satoshi, sans-serif;
+    font-size: clamp(17px, 2vw, 21px);
+    line-height: 1.6;
+}
+
+.portfolio-section {
+    margin: 0 auto 120px;
+}
+
+.portfolio-toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    margin-bottom: 30px;
+    padding-bottom: 18px;
+    border-bottom: 1px solid rgba(237, 240, 237, 0.2);
+}
+
+.portfolio-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 9px;
+}
+
+.portfolio-filter {
+    appearance: none;
+    border: 1px solid rgba(237, 240, 237, 0.35);
+    border-radius: 999px;
+    background: transparent;
+    color: #edf0ed;
+    cursor: pointer;
+    font-family: Satoshi, sans-serif;
+    font-size: 14px;
+    line-height: 1.2;
+    padding: 11px 17px;
+    transition: background-color 180ms ease, color 180ms ease, border-color 180ms ease;
+}
+
+.portfolio-filter:hover,
+.portfolio-filter:focus-visible {
+    border-color: #fa8960;
+    outline: none;
+}
+
+.portfolio-filter.is-active {
+    border-color: #edf0ed;
+    background: #edf0ed;
+    color: #0b0b0b;
+}
+
+.portfolio-count {
+    flex: 0 0 auto;
+    color: rgba(237, 240, 237, 0.58);
+    font-size: 13px;
+    white-space: nowrap;
+}
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 42px 24px;
+}
+
+.project-card {
+    min-width: 0;
+    animation: portfolio-card-in 220ms ease both;
+}
+
+.project-card[hidden] {
+    display: none;
+}
+
+.project-image {
+    position: relative;
+    overflow: hidden;
+    aspect-ratio: 16 / 10;
+    border-radius: 2px;
+    background:
+        radial-gradient(ellipse at 70% 20%, rgba(250, 137, 96, 0.24), transparent 48%),
+        linear-gradient(135deg, #252525, #111 70%);
+}
+
+.project-image img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 500ms cubic-bezier(.2,.7,.2,1);
+}
+
+.project-card:hover .project-image img {
+    transform: scale(1.035);
+}
+
+.project-image-label {
+    position: absolute;
+    bottom: 13px;
+    left: 13px;
+    padding: 7px 10px;
+    border: 1px solid rgba(255,255,255,0.22);
+    border-radius: 2px;
+    background: rgba(11, 11, 11, 0.68);
+    color: #edf0ed;
+    font-family: Satoshi, sans-serif;
+    font-size: 11px;
+    letter-spacing: 0.04em;
+    backdrop-filter: blur(8px);
+}
+
+.project-info {
+    padding-top: 15px;
+}
+
+.project-info h2 {
+    margin: 0 0 5px;
+    color: #edf0ed;
+    font-family: Syne, sans-serif;
+    font-size: clamp(19px, 2vw, 24px);
+    font-weight: 500;
+    line-height: 1.25;
+}
+
+.project-info p {
+    margin: 0;
+    color: rgba(237, 240, 237, 0.7);
+    font-family: Satoshi, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.project-category {
+    display: inline-block;
+    margin-top: 10px;
+    color: #fa8960;
+    font-family: Satoshi, sans-serif;
+    font-size: 11px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.portfolio-empty {
+    padding: 50px 0;
+    color: rgba(237, 240, 237, 0.7);
+    text-align: center;
+}
+
+.portfolio-contact {
+    margin: 0 -50px;
+    padding: 85px 30px 95px;
+    background: #1361ac;
+    text-align: center;
+}
+
+.portfolio-contact .portfolio-eyebrow {
+    color: #edf0ed;
+}
+
+.portfolio-contact h2 {
+    font-size: clamp(38px, 6vw, 65px);
+}
+
+.portfolio-contact-link {
+    display: inline-block;
+    margin-top: 28px;
+    border-bottom: 1px solid #edf0ed;
+    color: #edf0ed;
+    font-family: Syne, sans-serif;
+    font-size: 19px;
+    padding-bottom: 7px;
+    text-decoration: none;
+    transition: opacity 180ms ease;
+}
+
+.portfolio-contact-link:hover {
+    opacity: 0.72;
+}
+
+.portfolio-socials {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.portfolio-socials a {
+    display: inline-flex;
+    width: 34px;
+    align-items: center;
+}
+
+.portfolio-socials img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+@keyframes portfolio-card-in {
+    from { opacity: 0.5; transform: translateY(5px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 900px) {
+    .portfolio-main {
+        width: min(100% - 50px, 700px);
+    }
+
+    .portfolio-intro {
+        margin: 65px auto 55px;
+    }
+
+    .portfolio-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 34px 18px;
+    }
+
+    .portfolio-toolbar {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 14px;
+    }
+
+    .portfolio-contact {
+        margin-right: -25px;
+        margin-left: -25px;
+    }
+}
+
+@media (max-width: 560px) {
+    .portfolio-main {
+        width: calc(100% - 36px);
+    }
+
+    .portfolio-intro {
+        margin: 48px auto 42px;
+        text-align: left;
+    }
+
+    .portfolio-lede {
+        margin-top: 17px;
+    }
+
+    .portfolio-filters {
+        gap: 7px;
+    }
+
+    .portfolio-filter {
+        font-size: 12px;
+        padding: 9px 12px;
+    }
+
+    .portfolio-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .project-image {
+        aspect-ratio: 16 / 9;
+    }
+
+    .portfolio-contact {
+        margin-right: -18px;
+        margin-left: -18px;
+        padding: 65px 20px 72px;
+    }
+
+    .portfolio-socials {
+        gap: 8px;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .project-card,
+    .project-image img,
+    .portfolio-filter,
+    .portfolio-contact-link {
+        animation: none;
+        transition: none;
+    }
+}

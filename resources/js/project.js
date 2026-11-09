@@ -1,12 +1,14 @@
+
 /*
   EDITING YOUR PROJECT PAGES
   -------------------------
   Each entry below creates one client page.
   - description: the short introduction under the client name
   - services: the role/services you provided
-  - featuredImage: large image at the top (use a path from this project.html page)
-  - work: add/remove project items; set image to a thumbnail path
-  - videoEmbed: optional YouTube/Vimeo EMBED URL. Leave as an empty string until ready.
+  - featuredImage: large image at the top
+  - work: add/remove project items
+  - videoEmbed: optional YouTube/Vimeo EMBED URL
+  - videoType: use "vertical" for Shorts or "landscape" for standard videos
 */
 const projects = {
   "esmo": {
@@ -88,21 +90,22 @@ const projects = {
     services: "Trailer editing, promotional editing",
     featuredImage: "../../resources/images/work/portfolio/dialect.jpg",
     work: [
-        {
-            title: "Crimson Moon",
-            description: "Game trailer and promotional editing.",
-            image: "../../resources/images/work/portfolio/crimson-moon.jpg",
-            videoEmbed: "https://www.youtube.com/embed/8nxzdacwj80"
-        },
       {
-            title: "Crimson Moon",
-            description: "Game trailer and promotional editing.",
-            image: "../../resources/images/work/portfolio/crimson-moon.jpg",
-            videoEmbed: "https://www.youtube.com/embed/kcOEd73G58M"
-        },
-
+        title: "Crimson Moon",
+        description: "Game trailer and promotional editing.",
+        image: "../../resources/images/work/portfolio/crimson-moon.jpg",
+        videoEmbed: "https://www.youtube.com/embed/8nxzdacwj80",
+        videoType: "landscape"
+      },
+      {
+        title: "Crimson Moon",
+        description: "Game trailer and promotional editing.",
+        image: "../../resources/images/work/portfolio/crimson-moon.jpg",
+        videoEmbed: "https://www.youtube.com/embed/kcOEd73G58M",
+        videoType: "vertical"
+      }
     ]
-}
+  }
 };
 
 (() => {
@@ -146,7 +149,12 @@ const projects = {
       article.className = "project-work-item";
       const media = document.createElement("div");
       media.className = "project-work-media";
+
       if (item.videoEmbed) {
+        media.classList.add(
+          item.videoType === "vertical" ? "vertical-video" : "landscape-video"
+        );
+
         const iframe = document.createElement("iframe");
         iframe.src = item.videoEmbed;
         iframe.title = `${item.title} video`;
@@ -156,19 +164,31 @@ const projects = {
         media.appendChild(iframe);
       } else if (item.image) {
         const img = document.createElement("img");
-        img.src = item.image; img.alt = item.title; img.loading = "lazy";
+        img.src = item.image;
+        img.alt = item.title;
+        img.loading = "lazy";
         media.appendChild(img);
       } else {
         media.classList.add("project-page-empty");
-        media.textContent = "Add an image or video embed in resources/js/projects.js";
+        media.textContent = "Add an image or video embed in resources/js/project.js";
       }
-      const heading = document.createElement("h3"); heading.textContent = item.title;
-      const copy = document.createElement("p"); copy.textContent = item.description || "";
-      article.append(media, heading, copy); workGrid.appendChild(article);
+
+      const heading = document.createElement("h3");
+      heading.textContent = item.title;
+      const copy = document.createElement("p");
+      copy.textContent = item.description || "";
+      article.append(media, heading, copy);
+      workGrid.appendChild(article);
     });
   }
 
   function escapeHTML(value) {
-    return String(value).replace(/[&<>"']/g, (char) => ({"&":"&amp;", "<":"&lt;", ">":"&gt;", "\"":"&quot;", "'":"&#39;"}[char]));
+    return String(value).replace(/[&<>"']/g, (char) => ({
+      "&": "&amp;",
+      "<": "&lt;",
+      ">": "&gt;",
+      "\"": "&quot;",
+      "'": "&#39;"
+    }[char]));
   }
 })();

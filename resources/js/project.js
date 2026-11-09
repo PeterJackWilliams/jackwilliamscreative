@@ -95,7 +95,7 @@ const projects = {
 
 (() => {
   const id = new URLSearchParams(window.location.search).get("id");
-  const project = projects[id];
+  const project = project[id];
   const title = document.getElementById("project-title");
   const description = document.getElementById("project-description");
   const eyebrow = document.getElementById("project-eyebrow");

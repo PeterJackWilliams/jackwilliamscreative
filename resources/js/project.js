@@ -83,11 +83,11 @@ const projects = {
   },
   "dialect": {
     name: "Dialect", category: "Gaming & Entertainment",
-    description: "Game trailers and promotional edits created for video game projects, combining pace, atmosphere and gameplay-led storytelling.",
+    description: "Game trailers and promotional edits created for video game projects, combining pace, atmosphere and gameplay-led storytelling."videoEmbed: "https://www.youtube.com/embed/8nxzdacwj80",
     services: "Trailer editing, promotional editing",
     featuredImage: "../../resources/images/work/portfolio/dialect.jpg",
     work: [
-      { title: "Crimson Moon", description: "Game trailer and promotional editing.", image: "../../resources/images/work/portfolio/dialect.jpg", videoEmbed: "<iframe width="560" height="315" src="https://www.youtube.com/embed/8nxzdacwj80?si=LAHRwXFqwWcB-1Ik" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>" },
+      { title: "Crimson Moon", description: "Game trailer and promotional editing.", image: "
       { title: "Nekome", description: "Game promotional editing.", image: "../../resources/images/work/portfolio/nekome.jpg", videoEmbed: "" }
     ]
   }

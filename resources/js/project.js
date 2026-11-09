@@ -94,12 +94,13 @@ const projects = {
             image: "../../resources/images/work/portfolio/crimson-moon.jpg",
             videoEmbed: "https://www.youtube.com/embed/8nxzdacwj80"
         },
-        {
-            title: "Nekome",
-            description: "Game promotional editing.",
-            image: "../../resources/images/work/portfolio/nekome.jpg",
-            videoEmbed: ""
-        }
+      {
+            title: "Crimson Moon",
+            description: "Game trailer and promotional editing.",
+            image: "../../resources/images/work/portfolio/crimson-moon.jpg",
+            videoEmbed: "https://www.youtube.com/embed/kcOEd73G58M"
+        },
+
     ]
 }
 };

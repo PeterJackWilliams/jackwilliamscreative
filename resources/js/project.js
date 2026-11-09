@@ -13,9 +13,9 @@ const projects = {
     name: "ESMO", category: "Corporate, Science & Healthcare",
     description: "Video editing for scientific and medical communications, conference content and expert-led discussions.",
     services: "Video editing, graphics, colour grading",
-    featuredImage: "../../resources/images/work/portfolio/esmo.jpg",
+    featuredImage: "../../resources/images/work/portfolio/esmo.svg",
     work: [
-      { title: "Conference films & discussions", description: "Editing interviews, expert discussions and event content for a global oncology audience.", image: "../../resources/images/work/portfolio/esmo.jpg", videoEmbed: "" }
+      { title: "Conference films & discussions", description: "Editing interviews, expert discussions and event content for a global oncology audience.", image: "../../resources/images/work/portfolio/esmo.svg", videoEmbed: "" }
     ]
   },
   "dark-horse": {

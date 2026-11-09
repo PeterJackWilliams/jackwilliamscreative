@@ -82,20 +82,31 @@ const projects = {
     ]
   },
   "dialect": {
-    name: "Dialect", category: "Gaming & Entertainment",
-    description: "Game trailers and promotional edits created for video game projects, combining pace, atmosphere and gameplay-led storytelling."videoEmbed: "https://www.youtube.com/embed/8nxzdacwj80",
+    name: "Dialect",
+    category: "Gaming & Entertainment",
+    description: "Game trailers and promotional edits created for video game projects, combining pace, atmosphere and gameplay-led storytelling.",
     services: "Trailer editing, promotional editing",
     featuredImage: "../../resources/images/work/portfolio/dialect.jpg",
     work: [
-      { title: "Crimson Moon", description: "Game trailer and promotional editing.", image: "
-      { title: "Nekome", description: "Game promotional editing.", image: "../../resources/images/work/portfolio/nekome.jpg", videoEmbed: "" }
+        {
+            title: "Crimson Moon",
+            description: "Game trailer and promotional editing.",
+            image: "../../resources/images/work/portfolio/crimson-moon.jpg",
+            videoEmbed: "https://www.youtube.com/embed/8nxzdacwj80"
+        },
+        {
+            title: "Nekome",
+            description: "Game promotional editing.",
+            image: "../../resources/images/work/portfolio/nekome.jpg",
+            videoEmbed: ""
+        }
     ]
-  }
+}
 };
 
 (() => {
   const id = new URLSearchParams(window.location.search).get("id");
-  const project = project[id];
+  const project = projects[id];
   const title = document.getElementById("project-title");
   const description = document.getElementById("project-description");
   const eyebrow = document.getElementById("project-eyebrow");

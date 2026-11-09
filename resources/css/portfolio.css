@@ -334,6 +334,27 @@
     }
 }
 
+/* Vertical YouTube Shorts */
+.project-work-media.vertical-video {
+    display: flex;
+    justify-content: center;
+}
+
+.project-work-media.vertical-video iframe {
+    width: 100%;
+    max-width: 400px;
+    aspect-ratio: 9 / 16;
+    height: auto;
+}
+
+/* Standard landscape videos */
+.project-work-media.landscape-video iframe {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    height: auto;
+}
+
+
 
 /* Individual client / case-study pages */
 .project-page-main {

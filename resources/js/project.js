@@ -45,13 +45,13 @@ const projects = {
       { title: "School & sports films", description: "Promotional and sports content for Millfield School.", image: "../../resources/images/work/portfolio/millfield.jpg", videoEmbed: "" }
     ]
   },
-  "mission-science": {
-    name: "Mission Science", category: "Corporate, Science & Healthcare",
+  "bupa": {
+    name: "Bupa", category: "Corporate, Science & Healthcare",
     description: "Science and educational films designed to make ideas and discoveries accessible to a wider audience.",
     services: "Video editing, educational content",
-    featuredImage: "../../resources/images/work/portfolio/mission-science.jpg",
+    featuredImage: "../../resources/images/work/portfolio/bupa.jpg",
     work: [
-      { title: "Science & educational films", description: "A selection of educational and science-led films.", image: "../../resources/images/work/portfolio/mission-science.jpg", videoEmbed: "" }
+      { title: "Science & educational films", description: "A selection of educational and science-led films.", image: "../../resources/images/work/portfolio/bupa.jpg", videoEmbed: "" }
     ]
   },
   "wnu": {

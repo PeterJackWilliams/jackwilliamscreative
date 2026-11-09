@@ -22,9 +22,9 @@ const projects = {
     name: "Dark Horse", category: "Corporate, Science & Healthcare",
     description: "Editing science and healthcare-led films, bringing specialist subjects and stories together into clear, engaging content.",
     services: "Video editing, storytelling, graphics",
-    featuredImage: "../../resources/images/work/portfolio/dark-horse.jpg",
+    featuredImage: "../../resources/images/work/portfolio/dark-horse.svg",
     work: [
-      { title: "Science & healthcare films", description: "A selection of science and healthcare video projects edited for Dark Horse.", image: "../../resources/images/work/portfolio/dark-horse.jpg", videoEmbed: "" }
+      { title: "Science & healthcare films", description: "A selection of science and healthcare video projects edited for Dark Horse.", image: "../../resources/images/work/portfolio/dark-horse.svg", videoEmbed: "" }
     ]
   },
   "be-human-collective": {

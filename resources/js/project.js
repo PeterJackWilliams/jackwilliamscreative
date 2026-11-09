@@ -58,9 +58,9 @@ const projects = {
     name: "With Nothing Underneath", category: "Brand & Commercial",
     description: "Fashion campaigns and social-first content for a modern womenswear brand.",
     services: "Social editing, campaign cutdowns, captions & graphics",
-    featuredImage: "../../resources/images/work/portfolio/with-nothing-underneath.jpg",
+    featuredImage: "../../resources/images/work/portfolio/wnu.jpg",
     work: [
-      { title: "Fashion campaigns & social", description: "Campaign edits and social content across a range of formats.", image: "../../resources/images/work/portfolio/with-nothing-underneath.jpg", videoEmbed: "" }
+      { title: "Fashion campaigns & social", description: "Campaign edits and social content across a range of formats.", image: "../../resources/images/work/portfolio/wnu.jpg", videoEmbed: "" }
     ]
   },
   "dr-david-jack": {
@@ -72,22 +72,22 @@ const projects = {
       { title: "Brand & product content", description: "A selection of brand and product-led edits.", image: "../../resources/images/work/portfolio/dr-david-jack.jpg", videoEmbed: "" }
     ]
   },
-  "framette": {
-    name: "Framette", category: "Brand & Commercial",
+  "farmette": {
+    name: "Farmette", category: "Brand & Commercial",
     description: "Fashion, product and lifestyle content with a focus on visual detail and considered pacing.",
     services: "Video editing, fashion & product content",
-    featuredImage: "../../resources/images/work/portfolio/framette.jpg",
+    featuredImage: "../../resources/images/work/portfolio/farmette.jpg",
     work: [
-      { title: "Fashion & lifestyle", description: "A selection of fashion, product and brand content.", image: "../../resources/images/work/portfolio/framette.jpg", videoEmbed: "" }
+      { title: "Fashion & lifestyle", description: "A selection of fashion, product and brand content.", image: "../../resources/images/work/portfolio/farmette.jpg", videoEmbed: "" }
     ]
   },
   "dialect": {
     name: "Dialect", category: "Gaming & Entertainment",
     description: "Game trailers and promotional edits created for video game projects, combining pace, atmosphere and gameplay-led storytelling.",
     services: "Trailer editing, promotional editing",
-    featuredImage: "../../resources/images/work/portfolio/crimson-moon.jpg",
+    featuredImage: "../../resources/images/work/portfolio/dialect.jpg",
     work: [
-      { title: "Crimson Moon", description: "Game trailer and promotional editing.", image: "../../resources/images/work/portfolio/crimson-moon.jpg", videoEmbed: "" },
+      { title: "Crimson Moon", description: "Game trailer and promotional editing.", image: "../../resources/images/work/portfolio/dialect.jpg", videoEmbed: "" },
       { title: "Nekome", description: "Game promotional editing.", image: "../../resources/images/work/portfolio/nekome.jpg", videoEmbed: "" }
     ]
   }

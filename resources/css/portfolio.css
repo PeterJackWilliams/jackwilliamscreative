@@ -199,6 +199,10 @@
 }
 
 .portfolio-contact {
+    margin: 0 -50px;
+    padding: 85px 30px 95px;
+    background: #1361ac;
+    text-align: center;
     width: 100vw;
     margin-left: calc(50% - 50vw);
     box-sizing: border-box;

@@ -610,3 +610,26 @@ b {
         max-width: 120px;
     }
 }
+
+/* BRAND VALUES TEXT */
+.brandvalues {
+    width: 100%;
+    padding: 20px 0 45px;
+    text-align: center;
+}
+
+.brandvalues-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px 45px;
+    font-family: Syne, sans-serif;
+    font-size: clamp(25px, 3.5vw, 42px);
+    font-weight: 600;
+    color: #edf0ed;
+}
+
+.brandvalues-text .orange-dot {
+    color: #fa8960;
+}

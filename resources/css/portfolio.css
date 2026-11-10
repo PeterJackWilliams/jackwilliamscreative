@@ -392,6 +392,21 @@
     border: 0;
 }
 
+/* LANDSCAPE VIDEOS - FULL WIDTH */
+.project-work-item.landscape-work-item {
+    grid-column: 1 / -1;
+}
+
+.project-work-item.landscape-work-item .landscape-video {
+    width: 100%;
+    max-width: none;
+}
+
+/* VERTICAL VIDEOS AND INSTAGRAM - TWO COLUMN GRID */
+.project-work-item.vertical-work-item {
+    grid-column: auto;
+}
+
 /* Individual client / case-study pages */
 .project-page-main {
     width: min(1120px, calc(100% - 100px));

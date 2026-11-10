@@ -585,19 +585,51 @@ b {
     object-fit: contain;
 }
 
-/* CONTINUOUS ANIMATION */
+
+/* SCROLLING LOGO CAROUSEL */
+
+.logo-carousel {
+    width: 100%;
+    overflow: hidden;
+    padding: 45px 0;
+}
+
+.logo-track {
+    display: flex;
+    flex-wrap: nowrap;
+    width: max-content;
+    animation: logo-scroll 45s linear infinite;
+}
+
+.logo-group {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 90px;
+    padding-right: 90px;
+    flex-shrink: 0;
+    white-space: nowrap;
+}
+
+.logo-group img {
+    display: block;
+    flex: 0 0 auto;
+    width: auto;
+    height: 65px;
+    max-width: 180px;
+    object-fit: contain;
+}
 
 @keyframes logo-scroll {
-    from {
+    0% {
         transform: translateX(0);
     }
 
-    to {
+    100% {
         transform: translateX(-50%);
     }
 }
-
-/* MOBILE */
 
 @media screen and (max-width: 600px) {
     .logo-group {

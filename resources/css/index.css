@@ -583,13 +583,12 @@ b {
 
 .logo-group img {
     display: block;
-    flex: 0 0 160px;
-    width: 160px;
-    height: 75px;
+    flex: 0 0 180px;
+    width: 180px;
+    height: 85px;
     object-fit: contain;
     object-position: center;
 }
-
 
 @keyframes logo-scroll {
     from {

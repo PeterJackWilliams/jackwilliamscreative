@@ -137,7 +137,7 @@ const projects = {
       instagramEmbed: "https://www.instagram.com/p/DB1cjLSs9_v/"
     },
     {
-      instagramEmbed: "https://www.instagram.com/reel/DfjcnloChof/"
+      instagramEmbed: "https://www.instagram.com/reel/DfjcnloChof/?utm_source=ig_web_copy_link&mdxt=MzRlODBiNWFlZA==&srtk=MzRlODBiNWFlZA=="
     },
     {
       instagramEmbed: "https://www.instagram.com/reel/DQREOOCAklG/"

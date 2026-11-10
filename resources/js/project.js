@@ -62,7 +62,11 @@ const projects = {
     services: "Social editing, campaign cutdowns, captions & graphics",
     featuredImage: "../../resources/images/work/portfolio/wnu.jpg",
     work: [
-      { title: "Fashion campaigns & social", description: "Campaign edits and social content across a range of formats.", image: "../../resources/images/work/portfolio/wnu.jpg", videoEmbed: "" }
+      {
+        image: "../../resources/images/work/portfolio/crimson-moon.jpg",
+        videoEmbed: "https://www.youtube.com/embed/8nxzdacwj80",
+        videoType: "landscape"
+      },
     ]
   },
   "dr-david-jack": {
@@ -91,16 +95,10 @@ const projects = {
     featuredImage: "../../resources/images/work/portfolio/dialect.jpg",
     work: [
       {
-        title: "Crimson Moon",
-        description: "Game trailer and promotional editing.",
-        image: "../../resources/images/work/portfolio/crimson-moon.jpg",
         videoEmbed: "https://www.youtube.com/embed/8nxzdacwj80",
         videoType: "landscape"
       },
       {
-        title: "Crimson Moon",
-        description: "Game trailer and promotional editing.",
-        image: "../../resources/images/work/portfolio/crimson-moon.jpg",
         videoEmbed: "https://www.youtube.com/embed/kcOEd73G58M",
         videoType: "vertical"
       }

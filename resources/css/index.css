@@ -562,7 +562,7 @@ b {
 .logo-carousel {
     width: 100%;
     overflow: hidden;
-    padding: 45px 0;
+    padding: 45px 0 100px;
 }
 
 .logo-track {

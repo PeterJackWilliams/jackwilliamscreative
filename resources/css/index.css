@@ -633,3 +633,74 @@ b {
 .brandvalues-text .orange-dot {
     color: #fa8960;
 }
+
+/* HOMEPAGE INTRO TEXT AND VIDEO LAYOUT */
+
+.indexmedia {
+    display: grid;
+    grid-template-columns: 0.8fr 1.2fr;
+    align-items: center;
+    gap: 45px;
+}
+
+/* Text column */
+.brandvalues {
+    width: 100%;
+    min-width: 0;
+}
+
+.brandvalues-text {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    font-family: Syne, sans-serif;
+    color: #edf0ed;
+    line-height: 1.2;
+}
+
+/* Main heading */
+.brandvalues-heading {
+    font-size: clamp(30px, 3vw, 44px);
+    font-weight: 600;
+}
+
+/* Supporting introduction */
+.brandvalues-intro {
+    font-family: Satoshi, sans-serif;
+    font-size: clamp(16px, 1.3vw, 19px);
+    line-height: 1.6;
+    max-width: 440px;
+}
+
+/* Closing line */
+.brandvalues-cta {
+    font-size: clamp(23px, 2vw, 30px);
+    font-weight: 600;
+}
+
+/* Orange accents */
+.orange-dot {
+    color: #fa8960;
+}
+
+/* Video column */
+.indexmedia .work-container {
+    width: 100%;
+    min-width: 0;
+}
+
+.indexmedia .video {
+    width: 100%;
+}
+
+/* Mobile layout */
+@media screen and (max-width: 890px) {
+    .indexmedia {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .brandvalues-intro {
+        max-width: 600px;
+    }
+}

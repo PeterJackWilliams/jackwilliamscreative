@@ -371,27 +371,26 @@
     border: none;
 }
 
-/* Instagram posts - natural sizing */
+/* Instagram embeds - allow full post height */
 .project-work-media.instagram-embed {
-    position: relative;
-    display: block;
-    width: 100%;
-    height: auto;
-    min-height: 0;
-    aspect-ratio: auto;
-    overflow: visible;
-    background: transparent;
+    display: block !important;
+    width: 100% !important;
+    height: auto !important;
+    min-height: 706px !important;
+    aspect-ratio: auto !important;
+    overflow: visible !important;
+    background: transparent !important;
 }
 
-.project-work-media.instagram-embed .instagram-media {
+.project-work-media.instagram-embed iframe.instagram-media {
     display: block !important;
     width: 100% !important;
     max-width: 540px !important;
     min-width: 0 !important;
-    margin: 0 auto !important;
-    box-sizing: border-box;
+    height: 706px !important;
+    margin: 0 auto 12px !important;
+    border: 0;
 }
-
 
 /* Individual client / case-study pages */
 .project-page-main {

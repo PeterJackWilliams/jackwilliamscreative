@@ -268,7 +268,7 @@ const projects = {
         article.classList.add("vertical-work-item");
         } else if (item.videoType === "landscape") {
         article.classList.add("landscape-work-item");
-
+      }
       const media = document.createElement("div");
       media.className = "project-work-media";
 

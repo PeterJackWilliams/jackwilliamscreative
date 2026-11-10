@@ -97,11 +97,26 @@ const projects = {
     services: "Social editing, campaign cutdowns, captions & graphics",
     featuredImage: "../../resources/images/work/portfolio/wnu.jpg",
     work: [
-      {
-        instagramEmbed: "https://www.instagram.com/p/DB1cjLSs9_v/"
-      }
-    ]
-  },
+    {
+      instagramEmbed: "https://www.instagram.com/p/DB1cjLSs9_v/"
+    },
+    {
+      instagramEmbed: "https://www.instagram.com/reel/DQREOOCAklG/"
+    },
+    {
+      instagramEmbed: "https://www.instagram.com/p/VIDEO_ID_3/"
+    },
+    {
+      instagramEmbed: "https://www.instagram.com/p/VIDEO_ID_4/"
+    },
+    {
+      instagramEmbed: "https://www.instagram.com/p/VIDEO_ID_5/"
+    },
+    {
+      instagramEmbed: "https://www.instagram.com/p/VIDEO_ID_6/"
+    }
+  ]
+},
 
   "dr-david-jack": {
     name: "Dr David Jack",

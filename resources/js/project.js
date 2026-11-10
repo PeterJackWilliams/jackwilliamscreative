@@ -134,7 +134,7 @@ const projects = {
   featuredImage: "../../resources/images/work/portfolio/wnu.jpg",
   work: [
     {
-      videoEmbed: "https://youtu.be/0yeQnhUJ5dU",
+      videoEmbed: "https://www.youtube.com/embed/0yeQnhUJ5dU",
       videoType: "landscape"
     },
     {

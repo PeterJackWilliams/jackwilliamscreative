@@ -611,6 +611,19 @@ b {
     }
 }
 
+/* Enlarge selected logos in the carousel */
+
+.logo-group img[src*="dark-horse"] {
+    transform: scale(1.3);
+}
+
+.logo-group img[src*="millfield"] {
+    transform: scale(1.3);
+}
+
+.logo-group img[src*="bath-tennis"] {
+    transform: scale(1.3);
+}
 
 /* HOMEPAGE TEXT + VIDEO LAYOUT */
 

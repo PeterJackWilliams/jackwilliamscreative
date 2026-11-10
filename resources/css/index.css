@@ -697,3 +697,144 @@ b {
         flex: 0 0 auto;
     }
 }
+
+
+/* CONTACT PAGE */
+
+.contact-page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Keeps footer at bottom */
+.contact-main {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 50px 30px 80px;
+    box-sizing: border-box;
+}
+
+/* Cartoon and text layout */
+.contact-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 75px;
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+/* Cartoon image */
+.contact-cartoon {
+    flex: 0 1 380px;
+    text-align: center;
+}
+
+.contact-cartoon img {
+    display: block;
+    width: 100%;
+    max-width: 380px;
+    height: auto;
+    object-fit: contain;
+}
+
+/* Contact text */
+.contact-text {
+    flex: 0 1 480px;
+    text-align: left;
+}
+
+.contact-text h1 {
+    color: #edf0ed;
+    font-family: Syne, sans-serif;
+    font-size: clamp(48px, 6vw, 75px);
+    margin: 0 0 25px;
+}
+
+.contact-text h1 span {
+    color: #fa8960;
+}
+
+.contact-text p {
+    font-family: Satoshi, sans-serif;
+    font-size: 20px;
+    line-height: 1.7;
+    margin: 0 0 25px;
+}
+
+.contact-email {
+    display: inline-block;
+    color: #fa8960;
+    font-family: Satoshi, sans-serif;
+    font-size: 19px;
+    text-decoration: none;
+    border-bottom: 1px solid #fa8960;
+    padding-bottom: 6px;
+    overflow-wrap: anywhere;
+}
+
+.contact-email:hover {
+    color: #edf0ed;
+}
+
+/* Contact footer */
+.contact-page footer {
+    margin-top: auto;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.contact-socials {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.contact-socials img {
+    display: block;
+    width: 35px;
+    height: 35px;
+    object-fit: contain;
+}
+
+/* Mobile */
+@media screen and (max-width: 890px) {
+    .contact-main {
+        padding: 40px 25px 60px;
+    }
+
+    .contact-content {
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+    }
+
+    .contact-cartoon {
+        flex: none;
+        width: 65%;
+        max-width: 280px;
+    }
+
+    .contact-text {
+        flex: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .contact-text h1 {
+        font-size: 48px;
+    }
+
+    .contact-text p {
+        font-size: 18px;
+    }
+
+    .contact-email {
+        font-size: 16px;
+    }
+}

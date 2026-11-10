@@ -556,37 +556,8 @@ b {
     color: #fa8960;
 }
 
-/* SCROLLING LOGO CAROUSEL */
 
-.logo-carousel {
-    width: 100%;
-    overflow: hidden;
-    padding: 50px 0;
-}
-
-.logo-track {
-    display: flex;
-    width: max-content;
-    animation: logo-scroll 40s linear infinite;
-}
-
-.logo-group {
-    display: flex;
-    align-items: center;
-    gap: 90px;
-    padding-right: 90px;
-    flex-shrink: 0;
-}
-
-.logo-group img {
-    height: 65px;
-    width: auto;
-    max-width: 180px;
-    object-fit: contain;
-}
-
-
-/* SCROLLING LOGO CAROUSEL */
+/* SCROLLING CLIENT LOGOS */
 
 .logo-carousel {
     width: 100%;
@@ -596,20 +567,18 @@ b {
 
 .logo-track {
     display: flex;
-    flex-wrap: nowrap;
     width: max-content;
     animation: logo-scroll 45s linear infinite;
+    will-change: transform;
 }
 
 .logo-group {
     display: flex;
-    flex-direction: row;
     flex-wrap: nowrap;
     align-items: center;
     gap: 90px;
     padding-right: 90px;
-    flex-shrink: 0;
-    white-space: nowrap;
+    flex: 0 0 auto;
 }
 
 .logo-group img {
@@ -622,11 +591,10 @@ b {
 }
 
 @keyframes logo-scroll {
-    0% {
+    from {
         transform: translateX(0);
     }
-
-    100% {
+    to {
         transform: translateX(-50%);
     }
 }

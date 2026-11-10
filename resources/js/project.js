@@ -98,8 +98,7 @@ const projects = {
     featuredImage: "../../resources/images/work/portfolio/wnu.jpg",
     work: [
       {
-        instagramEmbed: "https://www.instagram.com/p/DB1cjLSs9_v/",
-        videoType: "vertical"
+        instagramEmbed: "https://www.instagram.com/p/DB1cjLSs9_v/"
       }
     ]
   },

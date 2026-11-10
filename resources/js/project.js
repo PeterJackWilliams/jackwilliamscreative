@@ -98,9 +98,8 @@ const projects = {
     featuredImage: "../../resources/images/work/portfolio/wnu.jpg",
     work: [
       {
-        title: "WNU Social Campaign",
-        description: "Selected social-first fashion edits.",
-        instagramEmbed: "https://www.instagram.com/p/DB1cjLSs9_v/"
+        instagramEmbed: "https://www.instagram.com/p/DB1cjLSs9_v/",
+        videoType: "vertical"
       }
     ]
   },

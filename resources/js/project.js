@@ -258,6 +258,13 @@ const projects = {
       const article = document.createElement("article");
       article.className = "project-work-item";
 
+      // Keep vertical videos and Instagram posts in the normal grid.
+      // Make landscape videos span the full width.
+      if (item.instagramEmbed || item.videoType === "vertical") {
+        article.classList.add("vertical-work-item");
+        } else if (item.videoType === "landscape") {
+        article.classList.add("landscape-work-item");
+
       const media = document.createElement("div");
       media.className = "project-work-media";
 

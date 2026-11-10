@@ -177,24 +177,10 @@ const projects = {
     featuredImage: "../../resources/images/work/portfolio/dr-david-jack.jpg",
     work: [
       {
-        title: "Brand & product content",
-        description: "A selection of brand and product-led edits.",
-        image: "../../resources/images/work/portfolio/dr-david-jack.jpg"
+        instagramEmbed: "https://www.instagram.com/reel/DfAc8USORSn/"
       }
-    ]
-  },
-
-  "farmette": {
-    name: "Farmette",
-    category: "Brand & Commercial",
-    description: "Fashion, product and lifestyle content with a focus on visual detail and considered pacing.",
-    services: "Video editing, fashion & product content",
-    featuredImage: "../../resources/images/work/portfolio/farmette.jpg",
-    work: [
       {
-        title: "Fashion & lifestyle",
-        description: "A selection of fashion, product and brand content.",
-        image: "../../resources/images/work/portfolio/farmette.jpg"
+        instagramEmbed: "https://www.instagram.com/reel/DdzFwk_uu0-/"
       }
     ]
   },
@@ -212,6 +198,10 @@ const projects = {
       },
       {
         videoEmbed: "https://www.youtube.com/embed/kcOEd73G58M",
+        videoType: "vertical"
+      },
+      {
+        videoEmbed: "https://youtube.com/shorts/BIBCIhds7bA",
         videoType: "vertical"
       }
     ]

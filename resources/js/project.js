@@ -217,7 +217,6 @@ const projects = {
         blockquote.dataset.instgrmVersion = "14";
 
         media.appendChild(blockquote);
-        blockquote.style.width = "100%";
         
 
       // SELF-HOSTED VIDEO

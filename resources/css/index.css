@@ -1,0 +1,483 @@
+@font-face {
+    font-family: Satoshi;
+    src: url(/resources/fonts/Satoshi_Complete/Satoshi-Variable.ttf);
+}
+@font-face {
+    font-family: SatoshiItalic;
+    src: url(/resources/fonts/Satoshi_Complete/Satoshi-VariableItalic.ttf);
+}
+@font-face {
+    font-family: Syne;
+    src: url(/resources/fonts/Syne/Syne-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: SyneMedium;
+    src: url(/resources/fonts/Syne/Syne-Medium.ttf);
+}
+
+.welcome {
+    justify-self: center;
+}
+
+.brandvalues {
+    justify-self: center;
+}
+
+body {
+    background-color: #0b0b0b;
+}
+
+.hidden {
+    display: none;
+}
+
+li {
+    text-decoration: none;
+    font-size: 20px;
+    text-align: left;
+}
+
+p {
+    margin: auto;
+    font-size: 20px;
+    line-height: 1.6;
+    font-family: Satoshi;
+    color: #edf0ed;
+}
+
+h1 {
+    font-family: Syne;
+}
+
+h4 {
+    font-family: Satoshi;
+}
+
+img {
+    max-width: 100%;
+}
+
+.cartoon {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.maps {
+    width: 480px;
+}
+
+.headerandlinks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: -8px -8px 50px -8px;
+    background-color: #edf0ed;
+    padding: 30px 50px;
+}
+
+.jwclogo {
+    width: 120px;
+}
+
+.services {
+    display: flex;
+    justify-content: center;
+
+}
+.servicesitems {
+    margin: 0px 30px;
+    max-width: 450px;
+}
+
+.link {
+    text-decoration: none;
+    margin: 0px 10px;
+    -webkit-text-fill-color: rgb(26, 25, 25);
+    font-family: 'Syne';
+    font-size: 34px;
+}
+
+.hide {
+    display: none;
+  }
+
+.imgclick {
+    width: 400px;
+}
+
+.footermedia {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.indexmedia {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 110px;
+}
+
+.textsection {
+    text-align: center;
+    margin: 0px auto;
+    text-align: -webkit-center;
+    margin-bottom: 110px;
+}
+.textsectiontext {
+    width: 1180px;
+}
+
+.indextext {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.textsectiontitle {
+    text-align: center;
+}
+
+.brandbanner {
+    margin: 160px auto;
+    text-align: center;
+}
+
+.wiglyline {
+    max-width: 170px;
+    margin: 25px auto;
+}
+
+.sectioncolour {
+    background-color: #1361ac;
+    margin: 0px -8px;
+}
+.sectioncolour2 {
+    margin: 0px -8px;
+    display: flex;
+    justify-content: center;
+}
+.sectioncolour3 {
+    margin: 0px -8px;
+    display: flex;
+    justify-content: center;
+}
+
+.tagline {
+    width: 420px;
+}  
+
+.video {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.contactdetails {
+    display: block;
+        padding: 15px;
+        text-align: center;
+        color: #fa8960;
+}
+
+footer {
+    background-color: #def22c;
+    display: flex;
+    justify-content: center;
+    margin: 0px -8px -8px -8px;
+    padding: 0px 20px;
+}
+
+.buttons {
+    width: 60px;
+    display: flex;
+    margin: -7px 0px;
+}
+
+.workdisplay {
+    display: flex;
+    padding: 0px 60px;
+    margin: 0px 60px;
+}
+
+.workdisplaypages {
+    display: flex;
+}
+
+.worklinks {
+    text-decoration: none;
+    color: #fa8960;
+}
+
+.videodisplay {
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.workstills {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 140px;
+}
+
+.brandstills {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 140px;
+}
+
+.pitem {
+    padding-bottom: 10px;
+}
+
+.worktitle {
+    font-family: Syne;
+    font-size: 65px;
+    text-align-last: center;
+    padding-bottom: 40px;
+}
+.contactinfo {
+    font-size: 30px;
+}
+.contactinfotitle {
+    font-family: caveat;
+    font-size: 35px
+}
+.testimonialtext {
+    font-size: 23px
+}
+/* media quereys */
+
+@media screen and (max-width:890px) {
+    .worktitle {
+        font-size: 40px;
+    } 
+}
+
+@media screen and (max-width:890px) {
+    .brandbanner {
+        display: none;
+    } 
+}
+
+@media screen and (max-width:890px) {
+    .testimonialtext {
+        font-size: 18px;
+        margin: 0px 43px;
+    } 
+}
+@media screen and (max-width:890px) {
+    .contactinfo {
+        font-size: 20px;
+        display: table;
+    } 
+}
+@media screen and (max-width:890px) {
+    .contactinfotitle {
+        font-size: 24px;
+    } 
+}
+
+@media screen and (max-width:890px) {
+    .services {
+        display: block;    
+    } 
+}
+
+@media screen and (max-width:890px) {
+    .iframe {
+        width: auto;    
+    } 
+}
+
+@media screen and (max-width:890px) {
+    .maps {
+        width: 220px;
+    }
+}
+
+@media screen and (max-width:890px) {
+    .headerandlinks {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 50px;
+        padding: 0px 50px;
+    }
+}
+
+@media screen and (max-width:890px) {
+    .link {
+        font-size: 24px;
+        display: block;
+    }
+}
+@media screen and (max-width:890px) {
+    .jwclogo {
+        width: 100px;
+    }
+}
+
+@media screen and (max-width:890px){
+    .hide {
+        display: none;
+  }
+}
+
+  @media screen and (max-width:890px) {
+      .imgclick {
+        width: 220px;
+        min-width: 180px;
+        margin: 0px auto;
+        padding-top: 20px;
+    }
+}
+
+@media screen and (max-width:890px) {
+    .indexmedia {
+        display: flow;
+    }
+}
+
+@media screen and (max-width:890px) {
+    .wiglyline {
+        max-width: 170px;
+        margin: -28px auto;
+    }
+}
+
+@media screen and (max-width:890px) {
+    .tagline {
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 20px;
+        margin: 0px auto;
+        width: 300px;
+    } 
+} 
+
+@media screen and (max-width:890px) {
+    .video {
+        display: flex;
+        justify-content: center;
+        max-width: 100%;
+    }  
+}
+
+@media screen and (max-width:890px) {
+    .contactdetails {
+        display: block;
+        padding: 15px;
+        text-align: center;
+        color: #fa8960;
+
+    }
+}
+
+@media screen and (max-width:890px) {
+    footer {
+        padding: 0px 20px;
+    }
+}
+
+@media screen and (max-width:890px) {
+    .workdisplay {
+        display: block;
+        width: 220px;
+        margin: 0px auto;
+    }
+}
+
+@media screen and (max-width:890px) {
+    .workdisplaypages {
+        display: block;
+    }
+}
+
+@media screen and (max-width:890px) {
+    .workstills {
+        margin: 0 auto;
+        display: block;
+        width: 280px;
+        padding-bottom: 0px;
+    }
+}
+
+@media screen and (max-width:890px) {
+    .brandstills {
+        margin: 0 auto;
+        display: block;
+        width: 280px;
+        padding-bottom: 0px;
+    }
+}
+
+@media screen and (min-width:895px) {
+    .brandstills {
+        display: none;
+    }
+}
+
+@media screen and (max-width:890px) {
+    .brandvalues {
+        display: none;
+    }
+}
+
+@media screen and (max-width:890px) {
+    .textsection {
+        margin: 0px auto;
+        text-align: center;
+        padding-bottom: 40px;
+    }
+}
+
+@media screen and (max-width:890px) {
+    .textsectiontext {
+       padding: 0px;    
+    }
+}
+@media screen and (max-width:890px) {
+    .footertext {
+        font-size: 12px;   
+    }
+}
+@media screen and (max-width:890px) {
+    .work-container {
+        padding: 0px 0px 20px;
+    }
+}
+@media screen and (min-width:895px) {
+.videodisplay {
+    display: flex;
+    padding: 20px;
+    text-align: center;
+}
+}
+@media screen and (max-width:890px) {
+.videodisplay {
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+}
+@media screen and (max-width:890px) {
+i {
+    font-size: 15px;
+}
+}
+@media screen and (max-width:890px) {
+b {
+    font-size: 25px;
+}
+}
+
+@media screen and (min-width:895px) {
+i {
+    font-size: 35px;
+}
+}
+@media screen and (min-width:895px) {
+b {
+    font-size: 45px;
+}
+}

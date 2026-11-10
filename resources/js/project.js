@@ -137,30 +137,33 @@ const projects = {
       instagramEmbed: "https://www.instagram.com/p/DB1cjLSs9_v/"
     },
     {
+      instagramEmbed: "https://www.instagram.com/reel/DfjcnloChof/"
+    },
+    {
       instagramEmbed: "https://www.instagram.com/reel/DQREOOCAklG/"
     },
     {
-      videoEmbed: "https://youtube.com/shorts/dYuhaw3i5jQ?feature=share",
+      videoEmbed: "https://youtube.com/shorts/dYuhaw3i5jQ",
       videoType: "vertical"
     },
       {
-      videoEmbed: "https://www.youtube.com/embed/kcOEd73G58M",
+      videoEmbed: "https://youtube.com/shorts/ercomuR4ypQ",
       videoType: "vertical"
     },
       {
-      videoEmbed: "https://www.youtube.com/embed/kcOEd73G58M",
+      videoEmbed: "https://youtube.com/shorts/pQI3bzU-_I4",
       videoType: "vertical"
     },
       {
-      videoEmbed: "https://www.youtube.com/embed/kcOEd73G58M",
+      videoEmbed: "https://youtube.com/shorts/xer41gjVVO8",
       videoType: "vertical"
     },
       {
-      videoEmbed: "https://www.youtube.com/embed/kcOEd73G58M",
+      videoEmbed: "https://youtube.com/shorts/wMbqcp17VGg",
       videoType: "vertical"
     },
       {
-      videoEmbed: "https://www.youtube.com/embed/kcOEd73G58M",
+      videoEmbed: "https://youtube.com/shorts/DPxffhnVses",
       videoType: "vertical"
     }
   ]

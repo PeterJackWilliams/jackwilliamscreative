@@ -481,3 +481,48 @@ b {
     font-size: 45px;
 }
 }
+
+/* HOMEPAGE CONTACT SECTION */
+
+.portfolio-contact {
+    width: 100%;
+    margin: 0;
+    padding: 85px 20px;
+    background-color: #1361ac;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.portfolio-contact .portfolio-eyebrow {
+    color: #edf0ed;
+    font-family: Satoshi, sans-serif;
+    font-size: 18px;
+    margin: 0 0 15px;
+}
+
+.portfolio-contact h2 {
+    color: #edf0ed;
+    font-family: Syne, sans-serif;
+    font-size: clamp(38px, 5vw, 65px);
+    margin: 0 0 30px;
+    font-weight: 600;
+}
+
+.portfolio-contact h2 span {
+    color: #fa8960;
+}
+
+.portfolio-contact-link {
+    display: inline-block;
+    color: #edf0ed;
+    font-family: Syne, sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    border-bottom: 1px solid #fa8960;
+    padding-bottom: 8px;
+    transition: color 0.3s ease;
+}
+
+.portfolio-contact-link:hover {
+    color: #fa8960;
+}

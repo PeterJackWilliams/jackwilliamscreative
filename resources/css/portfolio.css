@@ -371,7 +371,24 @@
     border: none;
 }
 
+/* Instagram embeds - preserve original dimensions */
+.project-work-media.instagram-embed {
+  width: 100%;
+  height: auto;
+  min-height: 0;
+  aspect-ratio: auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  overflow: visible;
+}
 
+.project-work-media.instagram-embed blockquote.instagram-media {
+  width: 100% !important;
+  max-width: 540px !important;
+  min-width: 326px !important;
+  margin: 0 auto !important;
+}
 
 
 /* Individual client / case-study pages */

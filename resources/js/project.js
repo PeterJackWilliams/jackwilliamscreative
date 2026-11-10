@@ -75,57 +75,57 @@ const projects = {
   },
 
   "bupa": {
-    name: "Bupa",
-    category: "Corporate, Science & Healthcare",
-    description: "Science and educational films designed to make ideas and discoveries accessible to a wider audience.",
-    services: "Video editing, educational content",
-    featuredImage: "../../resources/images/work/portfolio/bupa.jpg",
-    work: [
-      {
-        videoEmbed: "https://www.youtube.com/watch?v=UG6oyeYhJww",
-        videoType: "landscape"
-      },
-      {
-        videoEmbed: "https://www.youtube.com/watch?v=NYVoC5G_O8U",
-        videoType: "landscape"
-      },
-      {
-        videoEmbed: "https://www.youtube.com/watch?v=kqITeCGulOs",
-        videoType: "landscape"
-      },
-      {
-        videoEmbed: "https://www.youtube.com/watch?v=WJMQUL_sgF4",
-        videoType: "landscape"
-      },
-      {
-        videoEmbed: "https://www.youtube.com/watch?v=V40yCVFDSA4",
-        videoType: "landscape"
-      },
-      {
-        videoEmbed: "https://www.youtube.com/watch?v=BNnntSr30Rc",
-        videoType: "landscape"
-      },
+  name: "Bupa",
+  category: "Corporate, Science & Healthcare",
+  description: "Science and educational films designed to make ideas and discoveries accessible to a wider audience.",
+  services: "Video editing, educational content",
+  featuredImage: "../../resources/images/work/portfolio/bupa.jpg",
+  work: [
     {
-      instagramEmbed: "https://www.instagram.com/reels/CzwOQn5s2lg/"
+      videoEmbed: "https://www.youtube.com/embed/UG6oyeYhJww",
+      videoType: "landscape"
     },
     {
-      instagramEmbed: "https://www.instagram.com/reels/C0w4Jb7MqDl/"
+      videoEmbed: "https://www.youtube.com/embed/NYVoC5G_O8U",
+      videoType: "landscape"
     },
     {
-      instagramEmbed: "https://www.instagram.com/reels/CvzZWsaMhSL/"
+      videoEmbed: "https://www.youtube.com/embed/kqITeCGulOs",
+      videoType: "landscape"
     },
     {
-      instagramEmbed: "https://www.instagram.com/reels/Cttv108sbEw/"
+      videoEmbed: "https://www.youtube.com/embed/WJMQUL_sgF4",
+      videoType: "landscape"
     },
     {
-      instagramEmbed: "https://www.instagram.com/reels/CvulPfVuFpL/"
+      videoEmbed: "https://www.youtube.com/embed/V40yCVFDSA4",
+      videoType: "landscape"
     },
     {
-      instagramEmbed: "https://www.instagram.com/reels/Cq5vK-dMWQz/"
+      videoEmbed: "https://www.youtube.com/embed/BNnntSr30Rc",
+      videoType: "landscape"
+    },
+    {
+      instagramEmbed: "https://www.instagram.com/reel/CzwOQn5s2lg/"
+    },
+    {
+      instagramEmbed: "https://www.instagram.com/reel/C0w4Jb7MqDl/"
+    },
+    {
+      instagramEmbed: "https://www.instagram.com/reel/CvzZWsaMhSL/"
+    },
+    {
+      instagramEmbed: "https://www.instagram.com/reel/Cttv108sbEw/"
+    },
+    {
+      instagramEmbed: "https://www.instagram.com/reel/CvulPfVuFpL/"
+    },
+    {
+      instagramEmbed: "https://www.instagram.com/reel/Cq5vK-dMWQz/"
     }
   ]
 },
-
+  
   "wnu": {
     name: "With Nothing Underneath",
     category: "Brand & Commercial",

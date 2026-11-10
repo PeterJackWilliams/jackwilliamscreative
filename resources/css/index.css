@@ -527,6 +527,35 @@ b {
     color: #fa8960;
 }
 
+/* BRAND VALUES HEADING */
+
+.portfolio-intro {
+    max-width: 900px;
+    margin: 85px auto 50px;
+    text-align: center;
+}
+
+.portfolio-intro .portfolio-eyebrow {
+    color: #fa8960;
+    font-family: Satoshi, sans-serif;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+#portfolio-heading {
+    color: #edf0ed;
+    font-family: Syne, sans-serif;
+    font-size: clamp(40px, 5vw, 64px);
+    font-weight: 600;
+    margin: 0;
+}
+
+#portfolio-heading span {
+    color: #fa8960;
+}
+
 /* SCROLLING LOGO CAROUSEL */
 
 .logo-carousel {

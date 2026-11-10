@@ -63,8 +63,7 @@ const projects = {
     featuredImage: "../../resources/images/work/portfolio/wnu.jpg",
     work: [
       {
-        image: "../../resources/images/work/portfolio/crimson-moon.jpg",
-        videoEmbed: "https://www.youtube.com/embed/8nxzdacwj80",
+        videoEmbed: "https://www.instagram.com/p/DB1cjLSs9_v/?utm_source=ig_embed&amp;utm_campaign=loading",
         videoType: "landscape"
       },
     ]

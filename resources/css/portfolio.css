@@ -371,22 +371,23 @@
     border: none;
 }
 
-/* Instagram embeds - preserve original dimensions */
+/* Instagram embed sizing */
 .project-work-media.instagram-embed {
+  display: block !important;
   width: 100%;
-  height: auto;
-  min-height: 0;
-  aspect-ratio: auto;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  overflow: visible;
+  height: auto !important;
+  min-height: unset !important;
+  max-height: none !important;
+  aspect-ratio: unset !important;
+  overflow: visible !important;
+  padding: 0;
 }
 
-.project-work-media.instagram-embed blockquote.instagram-media {
-  width: 100% !important;
+.project-work-media.instagram-embed .instagram-media {
+  width: calc(100% - 2px) !important;
   max-width: 540px !important;
   min-width: 326px !important;
+  height: auto !important;
   margin: 0 auto !important;
 }
 

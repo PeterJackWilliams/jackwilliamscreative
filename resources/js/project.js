@@ -86,12 +86,30 @@ const projects = {
       videoType: "landscape"
     },
     {
+      instagramEmbed: "https://www.instagram.com/reel/CzwOQn5s2lg/"
+    },
+    {
+      instagramEmbed: "https://www.instagram.com/reel/C0w4Jb7MqDl/"
+    },
+    {
       videoEmbed: "https://www.youtube.com/embed/NYVoC5G_O8U",
       videoType: "landscape"
     },
     {
+      instagramEmbed: "https://www.instagram.com/reel/CvzZWsaMhSL/"
+    },
+    {
+      instagramEmbed: "https://www.instagram.com/reel/Cttv108sbEw/"
+    },
+    {
       videoEmbed: "https://www.youtube.com/embed/kqITeCGulOs",
       videoType: "landscape"
+    },
+    {
+      instagramEmbed: "https://www.instagram.com/reel/CvulPfVuFpL/"
+    },
+    {
+      instagramEmbed: "https://www.instagram.com/reel/Cq5vK-dMWQz/"
     },
     {
       videoEmbed: "https://www.youtube.com/embed/WJMQUL_sgF4",
@@ -105,24 +123,6 @@ const projects = {
       videoEmbed: "https://www.youtube.com/embed/BNnntSr30Rc",
       videoType: "landscape"
     },
-    {
-      instagramEmbed: "https://www.instagram.com/reel/CzwOQn5s2lg/"
-    },
-    {
-      instagramEmbed: "https://www.instagram.com/reel/C0w4Jb7MqDl/"
-    },
-    {
-      instagramEmbed: "https://www.instagram.com/reel/CvzZWsaMhSL/"
-    },
-    {
-      instagramEmbed: "https://www.instagram.com/reel/Cttv108sbEw/"
-    },
-    {
-      instagramEmbed: "https://www.instagram.com/reel/CvulPfVuFpL/"
-    },
-    {
-      instagramEmbed: "https://www.instagram.com/reel/Cq5vK-dMWQz/"
-    }
   ]
 },
   
@@ -205,7 +205,7 @@ const projects = {
         videoType: "vertical"
       },
       {
-        videoEmbed: "https://youtube.com/shorts/BIBCIhds7bA",
+        videoEmbed: "https://youtube.com/embed/BIBCIhds7bA",
         videoType: "vertical"
       }
     ]

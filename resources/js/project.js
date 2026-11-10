@@ -178,7 +178,7 @@ const projects = {
     work: [
       {
         instagramEmbed: "https://www.instagram.com/reel/DfAc8USORSn/"
-      }
+      },
       {
         instagramEmbed: "https://www.instagram.com/reel/DdzFwk_uu0-/"
       }

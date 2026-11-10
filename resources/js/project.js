@@ -127,12 +127,12 @@ const projects = {
 },
   
   "wnu": {
-    name: "With Nothing Underneath",
-    category: "Brand & Commercial",
-    description: "Fashion campaigns and social-first content for a modern womenswear brand.",
-    services: "Social editing, campaign cutdowns, captions & graphics",
-    featuredImage: "../../resources/images/work/portfolio/wnu.jpg",
-    work: [
+  name: "With Nothing Underneath",
+  category: "Brand & Commercial",
+  description: "Fashion campaigns and social-first content for a modern womenswear brand.",
+  services: "Social editing, campaign cutdowns, captions & graphics",
+  featuredImage: "../../resources/images/work/portfolio/wnu.jpg",
+  work: [
     {
       instagramEmbed: "https://www.instagram.com/p/DB1cjLSs9_v/"
     },
@@ -143,27 +143,27 @@ const projects = {
       instagramEmbed: "https://www.instagram.com/reel/DQREOOCAklG/"
     },
     {
-      videoEmbed: "https://youtube.com/shorts/dYuhaw3i5jQ",
+      videoEmbed: "https://www.youtube.com/embed/dYuhaw3i5jQ",
       videoType: "vertical"
     },
-      {
-      videoEmbed: "https://youtube.com/shorts/ercomuR4ypQ",
+    {
+      videoEmbed: "https://www.youtube.com/embed/ercomuR4ypQ",
       videoType: "vertical"
     },
-      {
-      videoEmbed: "https://youtube.com/shorts/pQI3bzU-_I4",
+    {
+      videoEmbed: "https://www.youtube.com/embed/pQI3bzU-_I4",
       videoType: "vertical"
     },
-      {
-      videoEmbed: "https://youtube.com/shorts/xer41gjVVO8",
+    {
+      videoEmbed: "https://www.youtube.com/embed/xer41gjVVO8",
       videoType: "vertical"
     },
-      {
-      videoEmbed: "https://youtube.com/shorts/wMbqcp17VGg",
+    {
+      videoEmbed: "https://www.youtube.com/embed/wMbqcp17VGg",
       videoType: "vertical"
     },
-      {
-      videoEmbed: "https://youtube.com/shorts/DPxffhnVses",
+    {
+      videoEmbed: "https://www.youtube.com/embed/DPxffhnVses",
       videoType: "vertical"
     }
   ]

@@ -68,9 +68,8 @@ const projects = {
     featuredImage: "../../resources/images/work/portfolio/millfield.jpg",
     work: [
       {
-        title: "School & sports films",
-        description: "Promotional and sports content for Millfield School.",
-        image: "../../resources/images/work/portfolio/millfield.jpg"
+        videoEmbed: "https://youtu.be/zsuETTkrM0o?si=jgCMX007nCmQoM1Q",
+        videoType: "landscape"
       }
     ]
   },
@@ -83,12 +82,49 @@ const projects = {
     featuredImage: "../../resources/images/work/portfolio/bupa.jpg",
     work: [
       {
-        title: "Science & educational films",
-        description: "A selection of educational and science-led films.",
-        image: "../../resources/images/work/portfolio/bupa.jpg"
-      }
-    ]
-  },
+        videoEmbed: "https://www.youtube.com/watch?v=UG6oyeYhJww",
+        videoType: "landscape"
+      },
+      {
+        videoEmbed: "https://www.youtube.com/watch?v=NYVoC5G_O8U",
+        videoType: "landscape"
+      },
+      {
+        videoEmbed: "https://www.youtube.com/watch?v=kqITeCGulOs",
+        videoType: "landscape"
+      },
+      {
+        videoEmbed: "https://www.youtube.com/watch?v=WJMQUL_sgF4",
+        videoType: "landscape"
+      },
+      {
+        videoEmbed: "https://www.youtube.com/watch?v=V40yCVFDSA4",
+        videoType: "landscape"
+      },
+      {
+        videoEmbed: "https://www.youtube.com/watch?v=BNnntSr30Rc",
+        videoType: "landscape"
+      },
+    {
+      instagramEmbed: "https://www.instagram.com/reels/CzwOQn5s2lg/"
+    },
+    {
+      instagramEmbed: "https://www.instagram.com/reels/C0w4Jb7MqDl/"
+    },
+    {
+      instagramEmbed: "https://www.instagram.com/reels/CvzZWsaMhSL/"
+    },
+    {
+      instagramEmbed: "https://www.instagram.com/reels/Cttv108sbEw/"
+    },
+    {
+      instagramEmbed: "https://www.instagram.com/reels/CvulPfVuFpL/"
+    },
+    {
+      instagramEmbed: "https://www.instagram.com/reels/Cq5vK-dMWQz/"
+    }
+  ]
+},
 
   "wnu": {
     name: "With Nothing Underneath",
@@ -104,16 +140,28 @@ const projects = {
       instagramEmbed: "https://www.instagram.com/reel/DQREOOCAklG/"
     },
     {
-      instagramEmbed: "https://www.instagram.com/p/VIDEO_ID_3/"
+      videoEmbed: "https://youtube.com/shorts/dYuhaw3i5jQ?feature=share",
+      videoType: "vertical"
     },
-    {
-      instagramEmbed: "https://www.instagram.com/p/VIDEO_ID_4/"
+      {
+      videoEmbed: "https://www.youtube.com/embed/kcOEd73G58M",
+      videoType: "vertical"
     },
-    {
-      instagramEmbed: "https://www.instagram.com/p/VIDEO_ID_5/"
+      {
+      videoEmbed: "https://www.youtube.com/embed/kcOEd73G58M",
+      videoType: "vertical"
     },
-    {
-      instagramEmbed: "https://www.instagram.com/p/VIDEO_ID_6/"
+      {
+      videoEmbed: "https://www.youtube.com/embed/kcOEd73G58M",
+      videoType: "vertical"
+    },
+      {
+      videoEmbed: "https://www.youtube.com/embed/kcOEd73G58M",
+      videoType: "vertical"
+    },
+      {
+      videoEmbed: "https://www.youtube.com/embed/kcOEd73G58M",
+      videoType: "vertical"
     }
   ]
 },

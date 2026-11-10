@@ -68,7 +68,7 @@ const projects = {
     featuredImage: "../../resources/images/work/portfolio/millfield.jpg",
     work: [
       {
-        videoEmbed: "https://youtu.be/zsuETTkrM0o?si=jgCMX007nCmQoM1Q",
+        videoEmbed: "https://www.youtube.com/embed/zsuETTkrM0o?si=jgCMX007nCmQoM1Q",
         videoType: "landscape"
       }
     ]

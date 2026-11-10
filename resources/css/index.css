@@ -611,121 +611,34 @@ b {
     }
 }
 
-/* BRAND VALUES TEXT */
-.brandvalues {
-    width: 100%;
-    padding: 20px 0 45px;
-    text-align: center;
-}
 
-.brandvalues-text {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 20px 45px;
-    font-family: Syne, sans-serif;
-    font-size: clamp(25px, 3.5vw, 42px);
-    font-weight: 600;
-    color: #edf0ed;
-}
-
-.brandvalues-text .orange-dot {
-    color: #fa8960;
-}
-
-/* HOMEPAGE INTRO TEXT AND VIDEO LAYOUT */
-
-.indexmedia {
-    display: grid;
-    grid-template-columns: 0.8fr 1.2fr;
-    align-items: center;
-    gap: 45px;
-}
-
-/* Text column */
-.brandvalues {
-    width: 100%;
-    min-width: 0;
-}
-
-.brandvalues-text {
-    display: flex;
-    flex-direction: column;
-    gap: 22px;
-    font-family: Syne, sans-serif;
-    color: #edf0ed;
-    line-height: 1.2;
-}
-
-/* Main heading */
-.brandvalues-heading {
-    font-size: clamp(30px, 3vw, 44px);
-    font-weight: 600;
-}
-
-/* Supporting introduction */
-.brandvalues-intro {
-    font-family: Satoshi, sans-serif;
-    font-size: clamp(16px, 1.3vw, 19px);
-    line-height: 1.6;
-    max-width: 440px;
-}
-
-/* Closing line */
-.brandvalues-cta {
-    font-size: clamp(23px, 2vw, 30px);
-    font-weight: 600;
-}
-
-/* Orange accents */
-.orange-dot {
-    color: #fa8960;
-}
-
-/* Video column */
-.indexmedia .work-container {
-    width: 100%;
-    min-width: 0;
-}
-
-.indexmedia .video {
-    width: 100%;
-}
-
-/* Mobile layout */
-@media screen and (max-width: 890px) {
-    .indexmedia {
-        grid-template-columns: 1fr;
-        gap: 30px;
-    }
-
-    .brandvalues-intro {
-        max-width: 600px;
-    }
-}
 /* HOMEPAGE TEXT + VIDEO LAYOUT */
 
 .indexmedia {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
     gap: 5%;
     width: 90%;
     max-width: 1400px;
-    margin: 60px auto;
+    margin: 50px auto 70px;
 }
 
 /* LEFT TEXT */
 .indexmedia .brandvalues {
+    display: block;
     flex: 0 0 38%;
     width: 38%;
+    padding: 0;
+    margin: 0;
+    text-align: left;
 }
 
 .brandvalues-text {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
     gap: 22px;
     color: #edf0ed;
     font-family: Syne, sans-serif;
@@ -756,17 +669,24 @@ b {
 .indexmedia .work-container {
     flex: 1;
     min-width: 0;
+    padding: 0;
 }
 
 .indexmedia .video {
     width: 100%;
 }
 
+.indexmedia .video iframe {
+    display: block;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    height: auto;
+}
+
 /* MOBILE */
 @media screen and (max-width: 890px) {
     .indexmedia {
         flex-direction: column;
-        align-items: stretch;
         gap: 30px;
     }
 

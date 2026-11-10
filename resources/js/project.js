@@ -167,7 +167,7 @@ const projects = {
       videoType: "vertical"
     },
     {
-      videoEmbed: "https://youtube.com/shorts/RcjZUL3RhgE",
+      videoEmbed: "https://youtube.com/embed/RcjZUL3RhgE",
       videoType: "vertical"
     }
   ]

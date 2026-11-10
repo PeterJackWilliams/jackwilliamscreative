@@ -62,7 +62,7 @@ const projects = {
 
   "millfield": {
     name: "Millfield School",
-    category: "Corporate, Science & Healthcare",
+    category: "Brand & Commercial",
     description: "Promotional and sports films showcasing the people, energy and opportunities within the school.",
     services: "Video editing, sports films",
     featuredImage: "../../resources/images/work/portfolio/millfield.jpg",

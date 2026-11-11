@@ -243,10 +243,41 @@ const projects = {
     return;
   }
 
-  document.title = `${project.name} | Selected Work`;
-  eyebrow.textContent = project.category;
-  title.textContent = project.name;
-  description.textContent = project.description;
+  
+document.title = `${project.name} | Selected Work`;
+eyebrow.textContent = project.category;
+title.textContent = project.name;
+
+// DISPLAY PROJECT DESCRIPTION / SECTIONS
+description.replaceChildren();
+
+if (project.sections && project.sections.length) {
+
+    project.sections.forEach((section) => {
+
+        const sectionWrapper = document.createElement("div");
+        sectionWrapper.className = "project-description-section";
+
+        const heading = document.createElement("h3");
+        heading.textContent = section.heading;
+
+        const paragraph = document.createElement("p");
+        paragraph.textContent = section.text;
+
+        sectionWrapper.append(heading, paragraph);
+        description.appendChild(sectionWrapper);
+
+    });
+
+} else if (project.description) {
+
+    // Keep existing project pages working as before.
+    const paragraph = document.createElement("p");
+    paragraph.textContent = project.description;
+    description.appendChild(paragraph);
+
+}
+
 
   meta.innerHTML = `<div><strong>Services</strong>${escapeHTML(project.services)}</div>`;
 

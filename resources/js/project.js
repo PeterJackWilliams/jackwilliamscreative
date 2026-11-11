@@ -18,13 +18,24 @@ const projects = {
   "esmo": {
     name: "ESMO",
     category: "Corporate, Science & Healthcare",
-    description: "The European Society for Medical Oncology (ESMO) is dedicated to improving cancer care through education, research and promoting equal access to the latest advances in oncology. Its video content plays an important role in sharing scientific developments, expert knowledge and best practices with the wider medical community.",
-    name: "My Role",
-    description: "Responsible for editing polished, engaging content across a range of video series, including international congress coverage and expert-led discussions. My work involved combining interviews, event footage, B-roll and presentation slides with bespoke graphics, animated titles and transitions. A key part of the role was translating complex scientific information into clear, accurate visual content. This required close attention to detail when designing and animating graphics and presentation slides, ensuring information remained precise without compromising clarity.",
-    name: "Case Study",
-    description: "At ESMO Congress Berlin 2025 and Madrid 2026, I edited 18 videos onsite at each event, working to tight deadlines to ensure content was ready for release within a month of each congress. With scientific developments moving quickly, timely delivery was essential. Both projects were completed on schedule, maintaining a consistently high standard across all 36 videos.",
+
+    sections: [
+        {
+            heading: "The Project",
+            text: "The European Society for Medical Oncology (ESMO) is dedicated to improving cancer care through education, research and promoting equal access to the latest advances in oncology. Its video content plays an important role in sharing scientific developments, expert knowledge and best practices with the wider medical community."
+        },
+        {
+            heading: "My Role",
+            text: "Responsible for editing polished, engaging content across a range of video series, including international congress coverage and expert-led discussions. My work involved combining interviews, event footage, B-roll and presentation slides with bespoke graphics, animated titles and transitions. A key part of the role was translating complex scientific information into clear, accurate visual content. This required close attention to detail when designing and animating graphics and presentation slides, ensuring information remained precise without compromising clarity."
+        },
+        {
+            heading: "Case Studies",
+            text: "At ESMO Congress Berlin 2025 and Madrid 2026, I edited 18 videos onsite at each event, working to tight deadlines to ensure content was ready for release within a month of each congress. With scientific developments moving quickly, timely delivery was essential. Both projects were completed on schedule, maintaining a consistently high standard across all 36 videos."
+        }
+    ],
+
     services: "Video editing, graphics, colour grading",
-  },
+},
 
   "dark-horse": {
     name: "Dark Horse",

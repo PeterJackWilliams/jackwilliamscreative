@@ -407,6 +407,32 @@
     grid-column: auto;
 }
 
+
+/* PROJECT DESCRIPTION SECTIONS */
+
+.project-description-section {
+    margin-bottom: 28px;
+}
+
+.project-description-section:last-child {
+    margin-bottom: 0;
+}
+
+.project-description-section h3 {
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    margin: 0 0 10px;
+    color: var(--accent-orange);
+}
+
+.project-description-section p {
+    margin: 0;
+    line-height: 1.75;
+}
+
+
 /* Individual client / case-study pages */
 .project-page-main {
     width: min(1120px, calc(100% - 100px));

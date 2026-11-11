@@ -291,8 +291,8 @@ if (project.sections && project.sections.length) {
 
   if (!project.work || !project.work.length) {
 
-    // Hide the entire Selected Work section when there is no content.
-    document.getElementById("project-work-heading").parentElement.parentElement.remove();
+    // Hide only the Selected Work section.
+    document.getElementById("project-work-heading").parentElement.remove();
 
 } else {
 

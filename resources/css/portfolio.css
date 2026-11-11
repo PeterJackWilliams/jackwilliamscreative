@@ -201,9 +201,13 @@
 
 /* CONTACT SECTION - MATCH HOMEPAGE */
 
+
 .portfolio-contact {
-    width: 100%;
-    margin: 0;
+    position: relative;
+    width: 100vw;
+    left: 50%;
+    margin-left: -50vw;
+    margin-right: 0;
     padding: 85px 20px;
     background-color: #1361ac;
     text-align: center;
@@ -287,11 +291,6 @@
         flex-direction: column;
         gap: 14px;
     }
-
-    .portfolio-contact {
-        margin-right: -25px;
-        margin-left: -25px;
-    }
 }
 
 @media (max-width: 560px) {
@@ -326,15 +325,12 @@
         aspect-ratio: 16 / 9;
     }
 
-    .portfolio-contact {
-        margin-right: -18px;
-        margin-left: -18px;
-        padding: 65px 20px 72px;
-    }
-
     .portfolio-socials {
         gap: 8px;
     }
+   .portfolio-contact {
+    padding: 65px 20px 72px;
+}
 }
 
 @media (prefers-reduced-motion: reduce) {

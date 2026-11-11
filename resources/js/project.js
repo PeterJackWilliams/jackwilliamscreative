@@ -40,17 +40,19 @@ const projects = {
   "dark-horse": {
     name: "Dark Horse",
     category: "Corporate, Science & Healthcare",
-    description: "Editing science and healthcare-led films, bringing specialist subjects and stories together into clear, engaging content.",
-    services: "Video editing, storytelling, graphics",
-    featuredImage: "../../resources/images/work/portfolio/dark-horse.svg",
-    work: [
-      {
-        title: "Science & healthcare films",
-        description: "A selection of science and healthcare video projects edited for Dark Horse.",
-        image: "../../resources/images/work/portfolio/dark-horse.svg"
-      }
-    ]
-  },
+    sections: [
+        {
+            heading: "The Project",
+            text: "Dark Horse is a specialist healthcare marketing communications agency, helping clients communicate clearly and effectively with the audiences that matter most, including healthcare professionals, patients and internal teams."
+        },
+        {
+            heading: "My Role",
+            text: "I support the team with video editing amendments across a range of existing projects, bringing expertise across the wider Adobe Creative Cloud suite, including Premiere Pro, After Effects and Illustrator. The work involves navigating complex, interconnected project files and collaborating with multiple team members to deliver detailed amendments across scientific presentations and talking-head videos featuring intricate animated presentation graphics. Attention to detail is essential, particularly when working within established After Effects projects. Updating text, graphics and visual elements requires precision to ensure the original styling, animation and overall consistency remain intact throughout."
+        },
+    ],
+
+    services: "Video editing, graphics, colour grading",
+},
 
   "be-human-collective": {
     name: "Be Human Collective",

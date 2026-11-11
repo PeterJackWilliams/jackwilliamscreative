@@ -198,38 +198,51 @@
     text-align: center;
 }
 
+
+/* CONTACT SECTION - MATCH HOMEPAGE */
+
 .portfolio-contact {
-    margin: 0 -50px;
-    padding: 85px 30px 95px;
-    background: #1361ac;
+    width: 100%;
+    margin: 0;
+    padding: 85px 20px;
+    background-color: #1361ac;
     text-align: center;
-    width: 100vw;
-    margin-left: calc(50% - 50vw);
     box-sizing: border-box;
 }
 
 .portfolio-contact .portfolio-eyebrow {
     color: #edf0ed;
+    font-family: Satoshi, sans-serif;
+    font-size: 18px;
+    margin: 0 0 15px;
 }
 
 .portfolio-contact h2 {
-    font-size: clamp(38px, 6vw, 65px);
+    color: #edf0ed;
+    font-family: Syne, sans-serif;
+    font-size: clamp(38px, 5vw, 65px);
+    margin: 0 0 30px;
+    font-weight: 600;
+    letter-spacing: normal;
+}
+
+.portfolio-contact h2 span {
+    color: #fa8960;
 }
 
 .portfolio-contact-link {
     display: inline-block;
-    margin-top: 28px;
-    border-bottom: 1px solid #edf0ed;
     color: #edf0ed;
     font-family: Syne, sans-serif;
-    font-size: 19px;
-    padding-bottom: 7px;
+    font-size: 18px;
     text-decoration: none;
-    transition: opacity 180ms ease;
+    border-bottom: 1px solid #fa8960;
+    padding-bottom: 8px;
+    transition: color 0.3s ease;
 }
 
 .portfolio-contact-link:hover {
-    opacity: 0.72;
+    color: #fa8960;
 }
 
 .portfolio-socials {

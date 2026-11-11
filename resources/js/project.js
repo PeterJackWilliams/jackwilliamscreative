@@ -26,7 +26,7 @@ const projects = {
         },
         {
             heading: "My Role",
-            text: "Responsible for editing polished, engaging content across a range of video series, including international congress coverage and expert-led discussions. My work involved combining interviews, event footage, B-roll and presentation slides with bespoke graphics, animated titles and transitions. A key part of the role was translating complex scientific information into clear, accurate visual content. This required close attention to detail when designing and animating graphics and presentation slides, ensuring information remained precise without compromising clarity."
+            text: "My work involves editing polished, engaging content across a range of video series, including international congress coverage and expert-led discussions. This involves combining interviews, event footage, B-roll and presentation slides with bespoke graphics, animated titles and transitions. A key part of my role is translating complex scientific information into clear, accurate visual content. This requires close attention to detail when designing and animating graphics and presentation slides, ensuring information remains precise without compromising clarity."
         },
         {
             heading: "Case Studies",

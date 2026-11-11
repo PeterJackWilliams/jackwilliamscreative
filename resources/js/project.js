@@ -51,23 +51,25 @@ const projects = {
         },
     ],
 
-    services: "Video editing, graphics, colour grading",
+    services: "Video editing + graphics.",
 },
 
   "be-human-collective": {
     name: "Be Human Collective",
     category: "Corporate, Science & Healthcare",
-    description: "Brand films and corporate content shaped around people, stories and the purpose behind an organisation.",
-    services: "Video editing, storytelling",
-    featuredImage: "../../resources/images/work/portfolio/be-human-collective.jpg",
-    work: [
-      {
-        title: "Brand films",
-        description: "A selection of brand and corporate films.",
-        image: "../../resources/images/work/portfolio/be-human-collective.jpg"
-      }
-    ]
-  },
+    sections: [
+        {
+            heading: "The Project",
+            text: "Be Human Partnership provides award-winning employee training, creating engaging learning experiences designed to develop knowledge and skills within the workplace."
+        },
+        {
+            heading: "My Role",
+            text: "My work involves editing training content across a variety of styles and formats, adapting to the creative and technical requirements of each project. This includes building projects from scratch, developing existing edits and stepping in to deliver amendments across established workflows. Projects range from recreating on-screen graphics and animations using After Effects, InDesign and Illustrator, to producing interactive workplace scenarios featuring actors and voiceover narration. The latter involves green-screen keying, compositing multiple scenes and exporting individual sequences in WebM format for interactive use. Alongside editing and motion graphics, my work includes colour grading, sound design, subtitling and translations. Working across multiple software packages and existing project files requires flexibility, technical knowledge and close attention to detail to ensure a consistent, polished final product."
+        },
+    ],
+
+    services: "Video editing + graphics.",
+},
 
   "millfield": {
     name: "Millfield School",

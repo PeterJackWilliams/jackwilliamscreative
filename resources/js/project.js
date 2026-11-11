@@ -291,9 +291,10 @@ if (project.sections && project.sections.length) {
 
   if (!project.work || !project.work.length) {
 
-    workGrid.innerHTML = '<p class="project-page-empty">Selected work will be added here soon.</p>';
+    // Hide the entire Selected Work section when there is no content.
+    document.getElementById("project-work-heading").parentElement.parentElement.remove();
 
-  } else {
+} else {
 
     project.work.forEach((item) => {
 
